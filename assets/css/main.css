@@ -1,0 +1,26 @@
+:root{
+  --nav-text: #2d2d2d;
+  --footer: #1e1e1e;
+  --text-grid: #515151;
+  --yellow: #e2cb23;
+  --yellow-team: #efd928;
+  --title-services: #eb2c8b;
+  --cards: #f602a4;
+  --metodologia: #f749bb;
+}
+
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face{
+  font-family: sifonn;
+  src: url(../fonts/SIFONN_PRO.otf);
+}
