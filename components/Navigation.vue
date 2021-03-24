@@ -23,7 +23,18 @@
   background-color: var(--nav-text);
   height: 9rem;
 }
+.logo img {
+  margin: 2rem 2.5rem;
+}
 .nav a {
-  font-family: siffon;
+  font-family: sifonn;
+  font-size: 2.6rem;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 3.5rem;
+  transition: 300ms;
+}
+.nav a:hover {
+  color: var(--metodologia);
 }
 </style>
