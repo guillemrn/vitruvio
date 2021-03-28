@@ -5,6 +5,7 @@
     <Anatomical />
     <Services />
     <Metodologia />
+    <Footer />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Hero from '@/components/Hero'
 import Anatomical from '@/components/Anatomical'
 import Services from '@/components/Services'
 import Metodologia from '@/components/Metodologia'
+import Footer from '@/components/Footer'
 export default {
   components: {
     Navigation,
@@ -21,6 +23,7 @@ export default {
     Anatomical,
     Services,
     Metodologia,
+    Footer,
   },
 }
 </script>
