@@ -46,10 +46,14 @@ span {
   letter-spacing: -1px;
 }
 p {
-  font-family: 'Century gothic';
+  font-family: c-gothic;
   font-size: 2.6rem;
   margin: 4rem 0;
   padding: 0 14rem;
   letter-spacing: 1px;
+}
+strong {
+  font-family: b-gothic;
+  font-weight: bold;
 }
 </style>

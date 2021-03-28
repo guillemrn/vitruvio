@@ -199,7 +199,7 @@ ul {
   margin: 0 6rem;
 }
 ul li {
-  font-family: 'Century gothic';
+  font-family: c-gothic;
   font-size: 1.8rem;
   text-align: start;
   color: var(--text-grid);

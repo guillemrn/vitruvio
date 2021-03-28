@@ -28,4 +28,12 @@ html{
   font-family: sifonn;
   src: url(../fonts/SIFONN_PRO.otf);
 }
+@font-face{
+  font-family: c-gothic;
+  src: url(../fonts/Gothic.ttf);
+}
+@font-face{
+  font-family: b-gothic;
+  src: url(../fonts/GOTHICB.TTF);
+}
 
