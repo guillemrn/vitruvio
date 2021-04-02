@@ -1,5 +1,5 @@
 <template>
-  <section class="section-container">
+  <section id="metodologia" class="section-container">
     <figure class="metodologia">
       <img src="@/assets/images/metodologia.svg" alt="metodologia" />
     </figure>

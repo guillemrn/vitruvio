@@ -8,9 +8,9 @@
     <nav class="nav">
       <a href="#">Inicio</a>
       <a href="#conocenos">Conócenos</a>
-      <a href="#">Servicios</a>
-      <a href="#">Equipo</a>
-      <a href="#">Metodología</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#team">Equipo</a>
+      <a href="#metodologia">Metodología</a>
       <nuxt-link to="/paquetes">Paquetes</nuxt-link>
       <a href="#">Blog</a>
       <a href="#">Contacto</a>
