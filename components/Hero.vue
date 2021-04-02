@@ -39,7 +39,6 @@ import 'vue-slick-carousel/dist/vue-slick-carousel.css'
 import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 
 export default {
-  name: 'MyComponent',
   components: { VueSlickCarousel },
 }
 </script>
@@ -52,23 +51,25 @@ export default {
 } */
 .carousel-item {
   background-image: url('@/assets/images/hero.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: nepo-reat;
+  /* background-size: cover; */
   height: 100vh;
   font-family: sifonn;
 }
 .title {
-  font-size: 3.4rem;
+  font-size: 3rem;
   color: #fff;
-  margin-left: 20rem;
-  line-height: 8rem;
+  margin-left: 15rem;
+  /* line-height: 8rem; */
+  text-transform: uppercase;
 }
 .title-container {
   position: relative;
   top: 30%;
 }
 .title span {
-  font-size: 16rem;
+  font-size: 12rem;
   text-transform: uppercase;
+  line-height: 110px;
 }
 </style>

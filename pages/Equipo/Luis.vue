@@ -1,5 +1,122 @@
 <template>
-  <section>
-    <h1>hola</h1>
-  </section>
+  <div class="team-container">
+    <Navigation />
+    <nuxt-link to="/mexico#team" class="close-icon">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="40"
+        height="40"
+        fill="#2D2D2D"
+        class="bi bi-x-circle-fill"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"
+        />
+      </svg>
+    </nuxt-link>
+    <section class="container">
+      <div class="team-bar">
+        <figure><img src="@/assets/images/luis.svg" alt="Luis" /></figure>
+        <h1 class="name">LUIS ANTONIO A.</h1>
+        <p class="puesto">CINEASTA / DIRECTOR CREATIVO</p>
+        <p class="description">
+          Luis, es un egresado de la Universidad de Guadalajara, con
+          licenciatura en Artes Audiovisuales. Ha trabajado como director
+          creativo en agencias de publicidad para marcas como: Menú local,
+          Erdinger, UNE, Balones Molten, Vimifos, entre otras.
+        </p>
+        <p class="description">
+          Durante su carrera como cineasta ha sido seleccionado en el SHORT FILM
+          CORNNER, del festival de Cannes 2020, así como en la selección oficial
+          de SHORTS MÉXICO 2020, con su cortometraje ERÓ, el cual recibió el
+          premio a mejor guión en categoría de ficción.
+        </p>
+      </div>
+      <VueSlickCarousel
+        class="carousel-vtrv"
+        :arrows="true"
+        :dots="false"
+        :infinite="true"
+        :center-mode="true"
+        :center-padding="'20px'"
+        :slides-to-show="1"
+        :slides-to-scroll="1"
+        :variable-width="true"
+      >
+        <h1>hola</h1>
+        <h1>hola2</h1>
+        <h1>hola3</h1>
+        <h1>hola4</h1>
+        <h1>hola4</h1>
+        <h1>hola4</h1>
+        <h1>hola4</h1>
+        <h1>hola4</h1>
+        <h1>hola4</h1>
+      </VueSlickCarousel>
+    </section>
+  </div>
 </template>
+
+<script>
+import Navigation from '@/components/Navigation'
+import VueSlickCarousel from 'vue-slick-carousel'
+import 'vue-slick-carousel/dist/vue-slick-carousel.css'
+// optional style for arrows & dots
+import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
+export default {
+  components: {
+    Navigation,
+    VueSlickCarousel,
+  },
+}
+</script>
+
+<style scoped>
+.team-bar {
+  background-color: var(--metodologia);
+  background-image: url(@/assets/images/logo-mask.svg);
+  width: 60rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  padding: 0 3rem;
+}
+.name {
+  font-family: sifonn;
+  font-size: 5rem;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+.puesto {
+  font-family: c-gothic;
+  font-size: 2.6rem;
+  color: #212121;
+  text-transform: uppercase;
+  margin-top: 3.5rem;
+}
+.description {
+  font-family: c-gothic;
+  font-size: 1.6rem;
+  color: #fff;
+  margin-top: 5rem;
+}
+.close-icon {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+}
+h1 {
+  color: red;
+  font-size: 5rem;
+}
+.carousel-vtrv {
+  width: 50%;
+  position: absolute;
+  top: 80%;
+  left: 40%;
+}
+</style>

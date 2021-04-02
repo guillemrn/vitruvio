@@ -1,5 +1,5 @@
 <template>
-  <section class="team-container">
+  <section id="team" class="team-container">
     <figure class="team-img">
       <img src="@/assets/images/team.svg" alt="Team" />
     </figure>

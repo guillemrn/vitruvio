@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="conocenos">
     <figure>
       <img src="@/assets/images/man.svg" alt="man" />
     </figure>
