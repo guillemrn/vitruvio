@@ -50,14 +50,14 @@ export default {
   width: 100%;
 } */
 .carousel-item {
-  background-image: url('@/assets/images/hero.png');
-  background-repeat: nepo-reat;
+  background-image: url('@/assets/images/hero.jpg');
+  background-repeat: no-repeat;
   /* background-size: cover; */
   height: 100vh;
   font-family: sifonn;
 }
 .title {
-  font-size: 3rem;
+  font-size: 3.4rem;
   color: #fff;
   margin-left: 15rem;
   /* line-height: 8rem; */
@@ -68,7 +68,7 @@ export default {
   top: 30%;
 }
 .title span {
-  font-size: 12rem;
+  font-size: 13rem;
   text-transform: uppercase;
   line-height: 110px;
 }
