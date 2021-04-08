@@ -7,13 +7,12 @@
     <div class="container">
       <figure><img src="@/assets/images/map.png" alt="map" /></figure>
       <div class="cta">
-        <nuxt-link to="/mexico">
-          <input id="dewey" type="radio" name="drone" value="dewey" />
-          <label for="dewey">México</label>
+        <nuxt-link to="/mexico" class="mx">
+          <div>México</div>
         </nuxt-link>
-        <nuxt-link to="/españa">
-          <input id="dewey" type="radio" name="drone" value="dewey" />
-          <label for="dewey">España</label>
+        <nuxt-link to="/españa" class="spain">
+          España
+          <span>y fuera de méxico</span>
         </nuxt-link>
       </div>
     </div>
@@ -47,14 +46,44 @@ main {
 figure {
   margin-top: 6rem;
 }
-label {
-  font-family: b-gothic;
-  font-size: 8rem;
-  color: #fff;
-  text-transform: uppercase;
-}
 .cta {
   display: flex;
   flex-flow: column;
+  text-transform: uppercase;
+}
+.mx,
+.spain {
+  font-family: b-gothic;
+  font-size: 4rem;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  margin: 2rem;
+  text-align: center;
+  border-radius: 60px;
+  transition: 300ms;
+}
+.mx:hover {
+  background-color: #ec008c;
+  color: var(--yellow);
+}
+.spain:hover {
+  background-color: #ec008c;
+  color: var(--yellow);
+}
+.mx {
+  padding: 1.7rem 4rem;
+}
+.spain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  padding: 1rem 4rem;
+}
+.spain span {
+  font-family: c-gothic;
+  font-size: 1.5rem;
+  margin-top: -0.5rem;
 }
 </style>

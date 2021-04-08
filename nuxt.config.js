@@ -35,7 +35,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ['@chakra-ui/nuxt', '@nuxtjs/emotion'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
