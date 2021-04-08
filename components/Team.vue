@@ -21,10 +21,10 @@
       </nuxt-link>
       <nuxt-link to="/Equipo/Victoria" class="item">
         <figure>
-          <img src="@/assets/images/victoria.svg" alt="Victoria" />
+          <img src="@/assets/images/andres.png" alt="Andrés" />
         </figure>
-        <h3>VICTORIA A.</h3>
-        <p>ANIMADORA DIGITAL</p>
+        <h3>ANDRÉS V.</h3>
+        <p>ANIMADOR DIGITAL</p>
       </nuxt-link>
       <nuxt-link to="/Equipo/Kenji" class="item">
         <figure><img src="@/assets/images/kenji.svg" alt="Kenji" /></figure>
@@ -37,19 +37,21 @@
         <p>FOTOGRÁFA</p>
       </nuxt-link>
       <nuxt-link to="/Equipo/Nelly" class="item">
-        <figure><img src="@/assets/images/nelly.svg" alt="Nelly" /></figure>
-        <h3>nelly s.</h3>
+        <figure><img src="@/assets/images/nayelhi.png" alt="Nayelhi" /></figure>
+        <h3>NAYELHI D.</h3>
         <p>ESTRÁTEGA DIGITAL</p>
       </nuxt-link>
       <nuxt-link to="/Equipo/Nelly" class="item">
-        <figure><img src="@/assets/images/nelly.svg" alt="Nelly" /></figure>
-        <h3>nelly s.</h3>
-        <p>ESTRÁTEGA DIGITAL</p>
+        <figure><img src="@/assets/images/isaac.png" alt="Isaac" /></figure>
+        <h3>ISAAC R.</h3>
+        <p>ESPECIALISTA EN DATA</p>
       </nuxt-link>
       <nuxt-link to="/Equipo/Nelly" class="item">
-        <figure><img src="@/assets/images/nelly.svg" alt="Nelly" /></figure>
-        <h3>nelly s.</h3>
-        <p>ESTRÁTEGA DIGITAL</p>
+        <figure>
+          <img src="@/assets/images/gioconda.png" alt="Gioconda" />
+        </figure>
+        <h3>GIOCONDA L.</h3>
+        <p>ATENCIÓN A CLIENTES</p>
       </nuxt-link>
     </div>
   </section>
