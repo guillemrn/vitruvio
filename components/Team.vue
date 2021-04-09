@@ -34,7 +34,7 @@
       <nuxt-link to="/Equipo/Diana" class="item">
         <figure><img src="@/assets/images/diana.svg" alt="Diana" /></figure>
         <h3>diana t.</h3>
-        <p>FOTOGRÁFA</p>
+        <p>FOTÓGRAFA</p>
       </nuxt-link>
       <nuxt-link to="/Equipo/Nelly" class="item">
         <figure><img src="@/assets/images/nayelhi.png" alt="Nayelhi" /></figure>
