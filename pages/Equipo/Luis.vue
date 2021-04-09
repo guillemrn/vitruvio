@@ -33,341 +33,44 @@
           premio a mejor guión en categoría de ficción.
         </p>
       </div>
-      <div>
-        <VueSlickCarousel
-          class="carousel-vtrv"
-          :arrows="true"
-          :dots="false"
-          :infinite="true"
-          :center-mode="true"
-          :center-padding="'20px'"
-          :slides-to-show="1"
-          :slides-to-scroll="1"
-          :variable-width="true"
-          :adaptive-height="true"
-        >
-          <CThemeProvider>
-            <div>
-              <figure class="carousel-img" m="4" @click="open">
-                <img src="@/assets/audiovisual/carousel/1.png" alt="" />
-              </figure>
-              <c-modal
-                :is-open="isOpen"
-                :on-close="close"
-                :close-on-overlay-click="false"
-                is-centered
-                class="modal-vtrv"
-              >
-                <c-modal-content ref="content">
-                  <c-modal-close-button />
-                  <figure class="modal-img">
-                    <img src="@/assets/audiovisual/1.jpg" alt="" />
-                  </figure>
-                </c-modal-content>
-                <c-modal-overlay />
-              </c-modal>
-            </div>
-          </CThemeProvider>
-          <!-- <CThemeProvider>
-            <div>
-              <figure class="carousel-img" @click="open">
-                <img src="@/assets/audiovisual/carousel/2.png" alt="" />
-              </figure>
-              <c-modal
-                :is-open="isOpen"
-                :on-close="close"
-                :close-on-overlay-click="false"
-                is-centered
-              >
-                <c-modal-content ref="content">
-                  <c-modal-close-button />
-                  <c-modal-body>
-                    <figure class="modal-img">
-                      <img src="@/assets/audiovisual/2.jpg" alt="" />
-                    </figure>
-                  </c-modal-body>
-                </c-modal-content>
-                <c-modal-overlay />
-              </c-modal>
-            </div>
-          </CThemeProvider>
-          <CThemeProvider>
-            <div>
-              <figure class="carousel-img" @click="open">
-                <img src="@/assets/audiovisual/carousel/3.png" alt="" />
-              </figure>
-              <c-modal
-                :is-open="isOpen"
-                :on-close="close"
-                :close-on-overlay-click="false"
-                is-centered
-              >
-                <c-modal-content ref="content">
-                  <c-modal-close-button />
-                  <c-modal-body>
-                    <figure class="modal-img">
-                      <img src="@/assets/audiovisual/3.jpg" alt="" />
-                    </figure>
-                  </c-modal-body>
-                </c-modal-content>
-                <c-modal-overlay />
-              </c-modal>
-            </div>
-          </CThemeProvider>
-          <CThemeProvider>
-            <div>
-              <figure class="carousel-img" @click="open">
-                <img src="@/assets/audiovisual/carousel/4.png" alt="" />
-              </figure>
-              <c-modal
-                :is-open="isOpen"
-                :on-close="close"
-                :close-on-overlay-click="false"
-                is-centered
-              >
-                <c-modal-content ref="content">
-                  <c-modal-close-button />
-                  <c-modal-body>
-                    <figure class="modal-img">
-                      <img src="@/assets/audiovisual/4.jpg" alt="" />
-                    </figure>
-                  </c-modal-body>
-                </c-modal-content>
-                <c-modal-overlay />
-              </c-modal>
-            </div>
-          </CThemeProvider>
-          <CThemeProvider>
-            <div>
-              <figure class="carousel-img" @click="open">
-                <img src="@/assets/audiovisual/carousel/5.png" alt="" />
-              </figure>
-              <c-modal
-                :is-open="isOpen"
-                :on-close="close"
-                :close-on-overlay-click="false"
-                is-centered
-              >
-                <c-modal-content ref="content">
-                  <c-modal-close-button />
-                  <c-modal-body>
-                    <figure class="modal-img">
-                      <img src="@/assets/audiovisual/5.jpg" alt="" />
-                    </figure>
-                  </c-modal-body>
-                </c-modal-content>
-                <c-modal-overlay />
-              </c-modal>
-            </div>
-          </CThemeProvider>
-          <CThemeProvider>
-            <div>
-              <figure class="carousel-img" @click="open">
-                <img src="@/assets/audiovisual/carousel/6.png" alt="" />
-              </figure>
-              <c-modal
-                :is-open="isOpen"
-                :on-close="close"
-                :close-on-overlay-click="false"
-                is-centered
-              >
-                <c-modal-content ref="content">
-                  <c-modal-close-button />
-                  <c-modal-body>
-                    <figure class="modal-img">
-                      <img src="@/assets/audiovisual/6.jpg" alt="" />
-                    </figure>
-                  </c-modal-body>
-                </c-modal-content>
-                <c-modal-overlay />
-              </c-modal>
-            </div>
-          </CThemeProvider>
-          <CThemeProvider>
-            <div>
-              <figure class="carousel-img" @click="open">
-                <img src="@/assets/audiovisual/carousel/7.jpg" alt="" />
-              </figure>
-              <c-modal
-                :is-open="isOpen"
-                :on-close="close"
-                :close-on-overlay-click="false"
-                is-centered
-              >
-                <c-modal-content ref="content">
-                  <c-modal-close-button />
-                  <c-modal-body>
-                    <figure class="modal-img">
-                      <img src="@/assets/audiovisual/7.jpg" alt="" />
-                    </figure>
-                  </c-modal-body>
-                </c-modal-content>
-                <c-modal-overlay />
-              </c-modal>
-            </div>
-          </CThemeProvider>
-          <CThemeProvider>
-            <div>
-              <figure class="carousel-img" @click="open">
-                <img src="@/assets/audiovisual/carousel/8.jpg" alt="" />
-              </figure>
-              <c-modal
-                :is-open="isOpen"
-                :on-close="close"
-                :close-on-overlay-click="false"
-                is-centered
-              >
-                <c-modal-content ref="content">
-                  <c-modal-close-button />
-                  <c-modal-body>
-                    <figure class="modal-img">
-                      <img src="@/assets/audiovisual/8.jpg" alt="" />
-                    </figure>
-                  </c-modal-body>
-                </c-modal-content>
-                <c-modal-overlay />
-              </c-modal>
-            </div>
-          </CThemeProvider>
-          <CThemeProvider>
-            <div>
-              <figure class="carousel-img" @click="open">
-                <img src="@/assets/audiovisual/carousel/9.jpg" alt="" />
-              </figure>
-              <c-modal
-                :is-open="isOpen"
-                :on-close="close"
-                :close-on-overlay-click="false"
-                is-centered
-              >
-                <c-modal-content ref="content">
-                  <c-modal-close-button />
-                  <c-modal-body>
-                    <figure class="modal-img">
-                      <img src="@/assets/audiovisual/9.jpg" alt="" />
-                    </figure>
-                  </c-modal-body>
-                </c-modal-content>
-                <c-modal-overlay />
-              </c-modal>
-            </div>
-          </CThemeProvider>
-          <CThemeProvider>
-            <div>
-              <figure class="carousel-img" @click="open">
-                <img src="@/assets/audiovisual/carousel/10.jpg" alt="" />
-              </figure>
-              <c-modal
-                :is-open="isOpen"
-                :on-close="close"
-                :close-on-overlay-click="false"
-                is-centered
-              >
-                <c-modal-content ref="content">
-                  <c-modal-close-button />
-                  <c-modal-body>
-                    <figure class="modal-img">
-                      <img src="@/assets/audiovisual/11.jpg" alt="" />
-                    </figure>
-                  </c-modal-body>
-                </c-modal-content>
-                <c-modal-overlay />
-              </c-modal>
-            </div>
-          </CThemeProvider>
-          <CThemeProvider>
-            <div>
-              <figure class="carousel-img" @click="open">
-                <img src="@/assets/audiovisual/carousel/12.jpg" alt="" />
-              </figure>
-              <c-modal
-                :is-open="isOpen"
-                :on-close="close"
-                :close-on-overlay-click="false"
-                is-centered
-              >
-                <c-modal-content ref="content">
-                  <c-modal-close-button />
-                  <c-modal-body>
-                    <figure class="modal-img">
-                      <img src="@/assets/audiovisual/12.jpg" alt="" />
-                    </figure>
-                  </c-modal-body>
-                </c-modal-content>
-                <c-modal-overlay />
-              </c-modal>
-            </div>
-          </CThemeProvider>
-          <CThemeProvider>
-            <div>
-              <figure class="carousel-img" @click="open">
-                <img src="@/assets/audiovisual/carousel/13.jpg" alt="" />
-              </figure>
-              <c-modal
-                :is-open="isOpen"
-                :on-close="close"
-                :close-on-overlay-click="false"
-                is-centered
-              >
-                <c-modal-content ref="content">
-                  <c-modal-close-button />
-                  <c-modal-body>
-                    <figure class="modal-img">
-                      <img src="@/assets/audiovisual/13.jpg" alt="" />
-                    </figure>
-                  </c-modal-body>
-                </c-modal-content>
-                <c-modal-overlay />
-              </c-modal>
-            </div>
-          </CThemeProvider>
-          <CThemeProvider>
-            <div>
-              <figure class="carousel-img" @click="open">
-                <img src="@/assets/audiovisual/carousel/14.png" alt="" />
-              </figure>
-              <c-modal
-                :is-open="isOpen"
-                :on-close="close"
-                :close-on-overlay-click="false"
-                is-centered
-              >
-                <c-modal-content ref="content">
-                  <c-modal-close-button />
-                  <c-modal-body>
-                    <figure class="modal-img">
-                      <img src="@/assets/audiovisual/14.jpg" alt="" />
-                    </figure>
-                  </c-modal-body>
-                </c-modal-content>
-                <c-modal-overlay />
-              </c-modal>
-            </div>
-          </CThemeProvider>
-          <CThemeProvider>
-            <div>
-              <figure class="carousel-img" @click="open">
-                <img src="@/assets/audiovisual/carousel/15.png" alt="" />
-              </figure>
-              <c-modal
-                :is-open="isOpen"
-                :on-close="close"
-                :close-on-overlay-click="false"
-                is-centered
-              >
-                <c-modal-content ref="content">
-                  <c-modal-close-button />
-                  <c-modal-body>
-                    <figure class="modal-img">
-                      <img src="@/assets/audiovisual/15.jpg" alt="" />
-                    </figure>
-                  </c-modal-body>
-                </c-modal-content>
-                <c-modal-overlay />
-              </c-modal>
-            </div>
-          </CThemeProvider> -->
-        </VueSlickCarousel>
+      <div class="video">
+        <iframe
+          width="660"
+          height="415"
+          src="https://www.youtube.com/embed/eKOgBG07tv4"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          rel="0"
+          showinfo="0"
+        ></iframe>
+        <div class="music">
+          <VueSlickCarousel
+            class="carousel-vtrv"
+            :arrows="true"
+            :dots="false"
+            :infinite="true"
+            :center-mode="true"
+            :slides-to-show="1"
+            :slides-to-scroll="1"
+            :variable-width="true"
+          >
+            <div><img src="@/assets/audiovisual/2.jpg" alt="" /></div>
+            <div><img src="@/assets/audiovisual/3.jpg" alt="" /></div>
+            <div><img src="@/assets/audiovisual/4.jpg" alt="" /></div>
+            <div><img src="@/assets/audiovisual/5.jpg" alt="" /></div>
+            <div><img src="@/assets/audiovisual/6.jpg" alt="" /></div>
+            <div><img src="@/assets/audiovisual/7.jpg" alt="" /></div>
+            <div><img src="@/assets/audiovisual/8.jpg" alt="" /></div>
+            <div><img src="@/assets/audiovisual/9.jpg" alt="" /></div>
+            <div><img src="@/assets/audiovisual/10.jpg" alt="" /></div>
+            <div><img src="@/assets/audiovisual/11.jpg" alt="" /></div>
+            <div><img src="@/assets/audiovisual/12.jpg" alt="" /></div>
+            <div><img src="@/assets/audiovisual/13.jpg" alt="" /></div>
+            <div><img src="@/assets/audiovisual/14.jpg" alt="" /></div>
+            <div><img src="@/assets/audiovisual/15.jpg" alt="" /></div>
+          </VueSlickCarousel>
+        </div>
       </div>
     </section>
   </div>
@@ -379,40 +82,20 @@ import VueSlickCarousel from 'vue-slick-carousel'
 import 'vue-slick-carousel/dist/vue-slick-carousel.css'
 // optional style for arrows & dots
 import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
-import {
-  CThemeProvider,
-  CModal,
-  CModalOverlay,
-  CModalContent,
-  CModalCloseButton,
-} from '@chakra-ui/vue'
 export default {
   components: {
     Navigation,
     VueSlickCarousel,
-    CThemeProvider,
-    CModal,
-    CModalOverlay,
-    CModalContent,
-    CModalCloseButton,
-  },
-  data() {
-    return {
-      isOpen: false,
-    }
-  },
-  methods: {
-    open() {
-      this.isOpen = true
-    },
-    close() {
-      this.isOpen = false
-    },
   },
 }
 </script>
 
 <style scoped>
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .team-bar {
   background-color: var(--metodologia);
   background-image: url(@/assets/images/logo-mask.svg);
@@ -444,10 +127,28 @@ export default {
   color: #fff;
   margin-top: 5rem;
 }
+.video {
+  font-family: c-gothic;
+  font-size: 3rem;
+  color: #212121;
+  box-sizing: content-box;
+  width: 60%;
+  margin-bottom: 20rem;
+}
+.video iframe {
+  text-align: center;
+  border-radius: 1rem;
+}
 .close-icon {
   position: absolute;
   right: 0;
   margin: 20px;
+}
+.music,
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .carousel-vtrv {
   width: 50%;
@@ -455,13 +156,7 @@ export default {
   top: 80%;
   left: 40%;
 }
-.carousel-img img {
-  width: 20rem;
-}
-.modal-img img {
-  width: 50rem;
-}
-.modal-vtrv {
-  width: 60rem;
+.carousel-vtrv img {
+  width: 40rem;
 }
 </style>

@@ -17,7 +17,7 @@
     </nuxt-link>
     <section class="container">
       <div class="team-bar">
-        <figure><img src="@/assets/images/kenji.svg" alt="Luis" /></figure>
+        <figure><img src="@/assets/images/kenji.svg" alt="Kenji" /></figure>
         <h1 class="name">KENJI K.</h1>
         <p class="puesto">COMPOSITOR / MULTI INSTRUMENTISTA</p>
       </div>
