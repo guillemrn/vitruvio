@@ -3,6 +3,7 @@
     <Navigation />
     <Hero />
     <Anatomical />
+    <Video />
     <Services />
     <Team />
     <Metodologia />
@@ -14,6 +15,7 @@
 import Navigation from '@/components/Navigation'
 import Hero from '@/components/Hero'
 import Anatomical from '@/components/Anatomical'
+import Video from '@/components/Video'
 import Services from '@/components/Services'
 import Team from '@/components/Team'
 import Metodologia from '@/components/Metodologia'
@@ -23,6 +25,7 @@ export default {
     Navigation,
     Hero,
     Anatomical,
+    Video,
     Services,
     Team,
     Metodologia,
