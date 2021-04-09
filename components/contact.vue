@@ -14,10 +14,28 @@
           NOMBRE DE TU EMPRESA O NEGOCIO
         </label>
         <input id="company" class="form-field" name="company" />
+        <label class="form-label" for="size">Tamaño de empresa</label>
+        <select id="size" name="size" class="form-field">
+          <option value="1 - 10 EMPLEADOS">1 - 10 EMPLEADOS</option>
+          <option value="10 - 30 EMPLEADOS">10 - 30 EMPLEADOS</option>
+          <option value="30 - 60 EMPLEADOS">30 - 60 EMPLEADOS</option>
+          <option value="60+ EMPLEADOS">60+ EMPLEADOS</option>
+        </select>
         <label class="form-label" for="activity">
           ACTIVIDAD DE TU EMPRESA O NEGOCIO
         </label>
         <input id="activity" class="form-field" name="activity" />
+        <label class="form-label" for="date"
+          >¿CUÁNDO PODEMOS HABLAR CONTIGO?</label
+        >
+        <input
+          id="date"
+          type="date"
+          name="date"
+          value="2018-07-22"
+          min="2018-01-01"
+          max="2030-12-31"
+        />
 
         <input class="form-button" type="submit" value="ENVIAR" />
       </form>
