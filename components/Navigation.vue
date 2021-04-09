@@ -13,7 +13,7 @@
       <a href="#metodologia">Metodología</a>
       <nuxt-link to="/paquetes">Paquetes</nuxt-link>
       <a href="#">Blog</a>
-      <a href="#">Contacto</a>
+      <nuxt-link to="/contacto">Contacto</nuxt-link>
     </nav>
   </header>
 </template>
