@@ -2,8 +2,17 @@
   <div class="container">
     <h1>¡QUEREMOS SABER DE TI!</h1>
     <div class="content">
-      <form name="contact" action="" method="post" netlify>
+      <form
+        name="contact"
+        action=""
+        netlify-honeypot="bot-field"
+        method="post"
+        netlify
+      >
         <input type="hidden" name="form-name" value="contact" />
+        <p class="hidden">
+          <label>Don’t fill this out: <input name="bot-field" /></label>
+        </p>
         <label class="form-label" for="name"> NOMBRE Y APELLIDOS </label>
         <input id="name" class="form-field" name="name" />
         <label class="form-label" for="phone"> TELÉFONO </label>
@@ -42,3 +51,9 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+.hidden {
+  display: none;
+}
+</style>
