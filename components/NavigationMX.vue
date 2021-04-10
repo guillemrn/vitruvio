@@ -6,14 +6,14 @@
       </figure>
     </nuxt-link>
     <nav class="nav">
-      <nuxt-link to="/españa">Inicio</nuxt-link>
-      <nuxt-link to="/españa#conocenos">Conócenos</nuxt-link>
-      <nuxt-link to="/españa#servicios">Servicios</nuxt-link>
-      <nuxt-link to="/españa#team">Equipo</nuxt-link>
-      <nuxt-link to="/españa#metodologia">Metodología</nuxt-link>
-      <nuxt-link to="/paquetes">Paquetes</nuxt-link>
+      <nuxt-link to="/mexico">Inicio</nuxt-link>
+      <nuxt-link to="/mexico#conocenos">Conócenos</nuxt-link>
+      <nuxt-link to="/mexico#servicios">Servicios</nuxt-link>
+      <nuxt-link to="/mexico#team">Equipo</nuxt-link>
+      <nuxt-link to="/mexico#metodologia">Metodología</nuxt-link>
+      <nuxt-link to="/paquetes-digital">Paquetes</nuxt-link>
       <a href="#">Blog</a>
-      <nuxt-link to="/contacto">Contacto</nuxt-link>
+      <nuxt-link to="/contactomx">Contacto</nuxt-link>
     </nav>
   </header>
 </template>

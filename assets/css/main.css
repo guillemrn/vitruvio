@@ -23,6 +23,9 @@ html{
   background-color: #f602a4;
   color:  #F9FEFF;
 }
+a {
+  cursor: pointer;
+}
 
 button.slick-prev:before,
 button.slick-next:before {
