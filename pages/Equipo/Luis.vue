@@ -55,20 +55,21 @@
             :slides-to-scroll="1"
             :variable-width="true"
           >
-            <div><img src="@/assets/audiovisual/2.jpg" alt="" /></div>
-            <div><img src="@/assets/audiovisual/3.jpg" alt="" /></div>
-            <div><img src="@/assets/audiovisual/4.jpg" alt="" /></div>
-            <div><img src="@/assets/audiovisual/5.jpg" alt="" /></div>
-            <div><img src="@/assets/audiovisual/6.jpg" alt="" /></div>
-            <div><img src="@/assets/audiovisual/7.jpg" alt="" /></div>
-            <div><img src="@/assets/audiovisual/8.jpg" alt="" /></div>
-            <div><img src="@/assets/audiovisual/9.jpg" alt="" /></div>
-            <div><img src="@/assets/audiovisual/10.jpg" alt="" /></div>
-            <div><img src="@/assets/audiovisual/11.jpg" alt="" /></div>
-            <div><img src="@/assets/audiovisual/12.jpg" alt="" /></div>
-            <div><img src="@/assets/audiovisual/13.jpg" alt="" /></div>
-            <div><img src="@/assets/audiovisual/14.jpg" alt="" /></div>
-            <div><img src="@/assets/audiovisual/15.jpg" alt="" /></div>
+            <div><img src="@/assets/audiovisual/1.png" alt="" /></div>
+            <div><img src="@/assets/audiovisual/2.png" alt="" /></div>
+            <div><img src="@/assets/audiovisual/3.png" alt="" /></div>
+            <div><img src="@/assets/audiovisual/4.png" alt="" /></div>
+            <div><img src="@/assets/audiovisual/5.png" alt="" /></div>
+            <div><img src="@/assets/audiovisual/6.png" alt="" /></div>
+            <div><img src="@/assets/audiovisual/7.png" alt="" /></div>
+            <div><img src="@/assets/audiovisual/8.png" alt="" /></div>
+            <div><img src="@/assets/audiovisual/9.png" alt="" /></div>
+            <div><img src="@/assets/audiovisual/10.png" alt="" /></div>
+            <div><img src="@/assets/audiovisual/11.png" alt="" /></div>
+            <div><img src="@/assets/audiovisual/12.png" alt="" /></div>
+            <div><img src="@/assets/audiovisual/13.png" alt="" /></div>
+            <div><img src="@/assets/audiovisual/14.png" alt="" /></div>
+            <div><img src="@/assets/audiovisual/15.png" alt="" /></div>
           </VueSlickCarousel>
         </div>
       </div>
@@ -151,12 +152,9 @@ export default {
   justify-content: space-evenly;
 }
 .carousel-vtrv {
-  width: 50%;
+  width: 60%;
   position: absolute;
   top: 80%;
-  left: 40%;
-}
-.carousel-vtrv img {
-  width: 40rem;
+  left: 35%;
 }
 </style>

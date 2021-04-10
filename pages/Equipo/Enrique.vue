@@ -154,12 +154,9 @@ export default {
   justify-content: space-evenly;
 }
 .carousel-vtrv {
-  width: 50%;
+  width: 60%;
   position: absolute;
   top: 80%;
-  left: 40%;
+  left: 35%;
 }
-/* .carousel-vtrv img {
-  width: 40rem;
-} */
 </style>
