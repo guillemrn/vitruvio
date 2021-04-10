@@ -24,6 +24,11 @@ html{
   color:  #F9FEFF;
 }
 
+button.slick-prev:before,
+button.slick-next:before {
+  color: #2d2d2d !important;
+}
+
 @font-face{
   font-family: sifonn;
   src: url(../fonts/SIFONN_PRO.otf);
