@@ -2,9 +2,9 @@
   <main class="hero">
     <VueSlickCarousel
       :arrows="false"
-      :dots="true"
-      :infinite="true"
-      :autoplay="true"
+      :dots="false"
+      :infinite="false"
+      :autoplay="false"
       :fade="true"
     >
       <div class="carousel-item">
@@ -14,7 +14,7 @@
           </h1>
         </div>
       </div>
-      <div class="carousel-item">
+      <!-- <div class="carousel-item">
         <div class="title-container">
           <h1 class="title">
             Muestra al mundo la<br /><span>anatomía</span><br />de tu marca
@@ -27,7 +27,7 @@
             Muestra al mundo la<br /><span>anatomía</span><br />de tu marca
           </h1>
         </div>
-      </div>
+      </div> -->
     </VueSlickCarousel>
   </main>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <section id="conocenos">
     <figure>
-      <img src="@/assets/images/man.svg" alt="man" />
+      <img src="@/assets/images/man.png" alt="man" />
     </figure>
     <div>
       <h2>Bajo el concepto de<br /><span>Anatomical marketing</span></h2>

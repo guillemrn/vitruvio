@@ -17,7 +17,7 @@
     </nuxt-link>
     <section class="container">
       <div class="team-bar">
-        <figure><img src="@/assets/images/kenji.svg" alt="Kenji" /></figure>
+        <figure><img src="@/assets/images/kenji.png" alt="Kenji" /></figure>
         <h1 class="name">KENJI K.</h1>
         <p class="puesto">COMPOSITOR / MULTI INSTRUMENTISTA</p>
       </div>
@@ -77,7 +77,7 @@ export default {
 }
 .team-bar {
   background-color: var(--metodologia);
-  background-image: url(@/assets/images/logo-mask.svg);
+  background-image: url(@/assets/images/logo-mask.png);
   width: 60rem;
   height: 100vh;
   display: flex;

@@ -17,7 +17,7 @@
     </nuxt-link>
     <section class="container">
       <div class="team-bar">
-        <figure><img src="@/assets/images/luis.svg" alt="Luis" /></figure>
+        <figure><img src="@/assets/images/luis.png" alt="Luis" /></figure>
         <h1 class="name">LUIS ANTONIO A.</h1>
         <p class="puesto">CINEASTA / DIRECTOR CREATIVO</p>
         <p class="description">
@@ -98,7 +98,7 @@ export default {
 }
 .team-bar {
   background-color: var(--metodologia);
-  background-image: url(@/assets/images/logo-mask.svg);
+  background-image: url(@/assets/images/logo-mask.png);
   width: 60rem;
   height: 100vh;
   display: flex;

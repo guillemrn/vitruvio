@@ -17,7 +17,7 @@
     </nuxt-link>
     <section class="container">
       <div class="team-bar">
-        <figure><img src="@/assets/images/hugo.svg" alt="Hugo" /></figure>
+        <figure><img src="@/assets/images/hugo.png" alt="Hugo" /></figure>
         <h1 class="name">HUGO V.</h1>
         <p class="puesto">ESTRATEGA DE MARKETING</p>
       </div>
@@ -78,7 +78,7 @@ export default {
 }
 .team-bar {
   background-color: var(--metodologia);
-  background-image: url(@/assets/images/logo-mask.svg);
+  background-image: url(@/assets/images/logo-mask.png);
   width: 60rem;
   height: 100vh;
   display: flex;

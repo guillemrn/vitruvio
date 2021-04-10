@@ -2,7 +2,7 @@
   <header class="header">
     <nuxt-link to="/">
       <figure class="logo">
-        <img src="@/assets/images/logo.svg" alt="Logo vitruvio" />
+        <img src="@/assets/images/logo.png" alt="Logo vitruvio" />
       </figure>
     </nuxt-link>
     <nav class="nav">

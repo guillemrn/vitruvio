@@ -17,7 +17,7 @@
     </nuxt-link>
     <section class="container">
       <div class="team-bar">
-        <figure><img src="@/assets/images/diana.svg" alt="Diana" /></figure>
+        <figure><img src="@/assets/images/diana.png" alt="Diana" /></figure>
         <h1 class="name">diana t.</h1>
         <p class="puesto">fotógrafa</p>
       </div>
@@ -95,7 +95,7 @@ export default {
 }
 .team-bar {
   background-color: var(--metodologia);
-  background-image: url(@/assets/images/logo-mask.svg);
+  background-image: url(@/assets/images/logo-mask.png);
   width: 60rem;
   height: 100vh;
   display: flex;

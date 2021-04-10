@@ -1,7 +1,7 @@
 <template>
   <section id="metodologia" class="section-container">
     <figure class="metodologia">
-      <img src="@/assets/images/metodologia.svg" alt="metodologia" />
+      <img src="@/assets/images/metodologia.png" alt="metodologia" />
     </figure>
     <div class="container">
       <div class="text-container a">
@@ -15,7 +15,7 @@
         </div>
       </div>
       <figure class="lisa">
-        <img src="@/assets/images/lisa.svg" alt="Mona Lisa" />
+        <img src="@/assets/images/lisa.png" alt="Mona Lisa" />
         <hr />
       </figure>
       <div class="text-container b">

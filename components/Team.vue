@@ -1,21 +1,21 @@
 <template>
   <section id="team" class="team-container">
     <figure class="team-img">
-      <img src="@/assets/images/team.svg" alt="Team" />
+      <img src="@/assets/images/team.png" alt="Team" />
     </figure>
     <div class="team">
       <nuxt-link to="/Equipo/Luis" class="item">
-        <figure><img src="@/assets/images/luis.svg" alt="Luis" /></figure>
+        <figure><img src="@/assets/images/luis.png" alt="Luis" /></figure>
         <h3>LUIS ANTONIO A.</h3>
         <p>CINEASTA</p>
       </nuxt-link>
       <nuxt-link to="/Equipo/Enrique" class="item">
-        <figure><img src="@/assets/images/enrique.svg" alt="Enrique" /></figure>
+        <figure><img src="@/assets/images/enrique.png" alt="Enrique" /></figure>
         <h3>ENRIQUE R.</h3>
         <p>DIRECTOR DE ARTE</p>
       </nuxt-link>
       <nuxt-link to="/Equipo/Hugo" class="item">
-        <figure><img src="@/assets/images/hugo.svg" alt="Hugo" /></figure>
+        <figure><img src="@/assets/images/hugo.png" alt="Hugo" /></figure>
         <h3>hugo v.</h3>
         <p>MERCADÓLOGO</p>
       </nuxt-link>
@@ -27,12 +27,12 @@
         <p>ANIMADOR DIGITAL</p>
       </nuxt-link>
       <nuxt-link to="/Equipo/Kenji" class="item">
-        <figure><img src="@/assets/images/kenji.svg" alt="Kenji" /></figure>
+        <figure><img src="@/assets/images/kenji.png" alt="Kenji" /></figure>
         <h3>KENJI K.</h3>
         <p>MUSICALIZADOR</p>
       </nuxt-link>
       <nuxt-link to="/Equipo/Diana" class="item">
-        <figure><img src="@/assets/images/diana.svg" alt="Diana" /></figure>
+        <figure><img src="@/assets/images/diana.png" alt="Diana" /></figure>
         <h3>diana t.</h3>
         <p>FOTÓGRAFA</p>
       </nuxt-link>

@@ -2,14 +2,14 @@
   <footer class="footer">
     <h3>¡QUEREMOS SABER DE TI!</h3>
     <figure class="social">
-      <a href="#"><img src="@/assets/images/facebook.svg" alt="facebook" /></a>
+      <a href="#"><img src="@/assets/images/facebook.png" alt="facebook" /></a>
       <a href="#"
-        ><img src="@/assets/images/instagram.svg" alt="instagram"
+        ><img src="@/assets/images/instagram.png" alt="instagram"
       /></a>
     </figure>
     <div class="links-container">
       <figure>
-        <img src="@/assets/images/logo.svg" alt="logo" />
+        <img src="@/assets/images/logo.png" alt="logo" />
       </figure>
       <a href="#" class="links">
         DIRECCIÓN:<br />Parque de las estrellas 2874, Guadalajara, Jalisco,
