@@ -2,8 +2,10 @@
   <footer class="footer">
     <h3>¡QUEREMOS SABER DE TI!</h3>
     <figure class="social">
-      <a href="#"><img src="@/assets/images/facebook.png" alt="facebook" /></a>
-      <a href="#"
+      <a href="https://www.facebook.com/vitruvio.mkt" target="_blank"
+        ><img src="@/assets/images/facebook.png" alt="facebook"
+      /></a>
+      <a href="https://www.instagram.com/vitruvio.mkt/" target="_blank"
         ><img src="@/assets/images/instagram.png" alt="instagram"
       /></a>
     </figure>
@@ -15,8 +17,12 @@
         DIRECCIÓN:<br />Parque de las estrellas 2874, Guadalajara, Jalisco,
         México.
       </a>
-      <a href="tel:" class="links">TELÉFONO: +52 (33) 333.4800.728</a>
-      <a href="#" class="links">CORREO: vitruvio.mkt@gmail.com</a>
+      <a href="tel:52333334800" class="links"
+        >TELÉFONO: +52 (33) 333.4800.728</a
+      >
+      <a href="mailto:vitruvio.mkt@gmail.com" class="links"
+        >CORREO: vitruvio.mkt@gmail.com</a
+      >
     </div>
   </footer>
 </template>
