@@ -17,7 +17,9 @@
     </a>
     <section class="container">
       <div class="team-bar">
-        <figure><img src="@/assets/images/enrique.png" alt="Enrique" /></figure>
+        <figure>
+          <img src="https://i.imgur.com/VRKfHyK.png" alt="Enrique" />
+        </figure>
         <h1 class="name">Enrique r.</h1>
         <p class="puesto">DISEÑADOR / DIRECTOR DE ARTE</p>
         <p class="description">

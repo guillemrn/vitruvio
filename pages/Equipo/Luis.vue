@@ -17,7 +17,9 @@
     </a>
     <section class="container">
       <div class="team-bar">
-        <figure><img src="@/assets/images/luis.png" alt="Luis" /></figure>
+        <figure>
+          <img src="https://i.imgur.com/Sa7jGgz.png" alt="Luis" />
+        </figure>
         <h1 class="name">LUIS ANTONIO A.</h1>
         <p class="puesto">CINEASTA / DIRECTOR CREATIVO</p>
         <p class="description">

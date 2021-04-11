@@ -17,7 +17,9 @@
     </a>
     <section class="container">
       <div class="team-bar">
-        <figure><img src="@/assets/images/diana.png" alt="Diana" /></figure>
+        <figure>
+          <img src="https://i.imgur.com/TgatKJ9.png" alt="Diana" />
+        </figure>
         <h1 class="name">diana t.</h1>
         <p class="puesto">fotógrafa</p>
       </div>

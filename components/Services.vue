@@ -1,7 +1,7 @@
 <template>
   <section id="servicios">
     <figure class="servicios">
-      <img src="@/assets/images/servicios.png" alt="Servicios" />
+      <img src="https://i.imgur.com/fVbKkrm.png" alt="Servicios" />
     </figure>
     <div>
       <CThemeProvider>
@@ -13,7 +13,7 @@
           <c-accordion-item border="none">
             <c-accordion-header border="none" bg="white" class="vtrv-acordion">
               <figure class="image">
-                <img src="@/assets/images/MKT DIGITAL.png" alt="mkt digital" />
+                <img src="https://i.imgur.com/2WsNNki.png" alt="mkt digital" />
               </figure>
               <c-box flex="1" text-align="left" class="title">
                 marketing digital
@@ -29,7 +29,7 @@
           <c-accordion-item border="none">
             <c-accordion-header border="none" bg="white" class="vtrv-acordion">
               <figure class="image">
-                <img src="@/assets/images/PUBLICIDAD.png" alt="Publicidad" />
+                <img src="https://i.imgur.com/COanPPj.png" alt="Publicidad" />
               </figure>
               <c-box flex="1" text-align="left" class="title">
                 publicidad
@@ -44,7 +44,7 @@
             <c-accordion-header border="none" bg="white" class="vtrv-acordion">
               <figure class="image">
                 <img
-                  src="@/assets/images/INVESTIGACION-MERCADOS.png"
+                  src="https://i.imgur.com/XYotYCB.png"
                   alt="investigación de mercados"
                 />
               </figure>
@@ -60,7 +60,7 @@
           <c-accordion-item border="none">
             <c-accordion-header border="none" bg="white" class="vtrv-acordion">
               <figure class="image">
-                <img src="@/assets/images/AUDIOVISUAL.png" alt="audiovisual" />
+                <img src="https://i.imgur.com/fFnFCax.png" alt="audiovisual" />
               </figure>
               <c-box flex="1" text-align="left" class="title">
                 producción audiovisual
@@ -74,7 +74,7 @@
           <c-accordion-item border="none">
             <c-accordion-header border="none" bg="white" class="vtrv-acordion">
               <figure class="image">
-                <img src="@/assets/images/BRANDING.png" alt="branding" />
+                <img src="https://i.imgur.com/DASiifT.png" alt="branding" />
               </figure>
               <c-box flex="1" text-align="left" class="title"> branding </c-box>
             </c-accordion-header>
@@ -86,7 +86,7 @@
           <c-accordion-item border="none">
             <c-accordion-header border="none" bg="white" class="vtrv-acordion">
               <figure class="image">
-                <img src="@/assets/images/WEB DESIGN.png" alt="web design" />
+                <img src="https://i.imgur.com/fnB3nNy.png" alt="web design" />
               </figure>
               <c-box flex="1" text-align="left" class="title">
                 web design
@@ -101,7 +101,7 @@
             <c-accordion-header border="none" bg="white" class="vtrv-acordion">
               <figure class="image">
                 <img
-                  src="@/assets/images/CENTRALMEDIOS.png"
+                  src="https://i.imgur.com/YVPn1aE.png"
                   alt="central de medios"
                 />
               </figure>
@@ -117,7 +117,7 @@
           <c-accordion-item border="none">
             <c-accordion-header border="none" bg="white" class="vtrv-acordion">
               <figure class="image">
-                <img src="@/assets/images/DISEÑO.png" alt="diseño" />
+                <img src="https://i.imgur.com/rdvrdKp.png" alt="diseño" />
               </figure>
               <c-box flex="1" text-align="left" class="title">
                 diseño e ilustración
@@ -131,7 +131,7 @@
           <c-accordion-item border="none">
             <c-accordion-header border="none" bg="white" class="vtrv-acordion">
               <figure class="image">
-                <img src="@/assets/images/FOTOGRAFIA.png" alt="fotografía" />
+                <img src="https://i.imgur.com/fQ4s4vx.png" alt="fotografía" />
               </figure>
               <c-box flex="1" text-align="left" class="title">
                 fotografía
@@ -144,7 +144,10 @@
           <c-accordion-item border="none">
             <c-accordion-header border="none" bg="white" class="vtrv-acordion">
               <figure class="image">
-                <img src="@/assets/images/MUSICA.png" alt="musicalización" />
+                <img
+                  src="https://i.imgur.com/7lJJiXp.png"
+                  alt="musicalización"
+                />
               </figure>
               <c-box flex="1" text-align="left" class="title">
                 musicalización
@@ -159,7 +162,7 @@
             <c-accordion-header border="none" bg="white" class="vtrv-acordion">
               <figure class="image">
                 <img
-                  src="@/assets/images/CONTENIDOS.png"
+                  src="https://i.imgur.com/0ERu9uD.png"
                   alt="análisis de data"
                 />
               </figure>
@@ -174,7 +177,7 @@
           <c-accordion-item border="none">
             <c-accordion-header border="none" bg="white" class="vtrv-acordion">
               <figure class="image">
-                <img src="@/assets/images/ANIMACION.png" alt="animación" />
+                <img src="https://i.imgur.com/qq3lnPZ.png" alt="animación" />
               </figure>
               <c-box flex="1" text-align="left" class="title">
                 animación

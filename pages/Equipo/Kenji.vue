@@ -17,7 +17,9 @@
     </a>
     <section class="container">
       <div class="team-bar">
-        <figure><img src="@/assets/images/kenji.png" alt="Kenji" /></figure>
+        <figure>
+          <img src="https://i.imgur.com/jsmb3IP.png" alt="Kenji" />
+        </figure>
         <h1 class="name">KENJI K.</h1>
         <p class="puesto">COMPOSITOR / MULTI INSTRUMENTISTA</p>
       </div>

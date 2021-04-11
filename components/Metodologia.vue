@@ -1,7 +1,7 @@
 <template>
   <section id="metodologia" class="section-container">
     <figure class="metodologia">
-      <img src="@/assets/images/metodologia.png" alt="metodologia" />
+      <img src="https://i.imgur.com/JLlTHXE.png" alt="metodologia" />
     </figure>
     <div class="container">
       <div class="text-container a">

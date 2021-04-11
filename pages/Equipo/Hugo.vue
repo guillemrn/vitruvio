@@ -17,7 +17,9 @@
     </a>
     <section class="container">
       <div class="team-bar">
-        <figure><img src="@/assets/images/hugo.png" alt="Hugo" /></figure>
+        <figure>
+          <img src="https://i.imgur.com/G1xKi1b.png" alt="Hugo" />
+        </figure>
         <h1 class="name">HUGO V.</h1>
         <p class="puesto">ESTRATEGA DE MARKETING</p>
       </div>
