@@ -5,11 +5,7 @@
     </figure>
     <div>
       <CThemeProvider>
-        <c-accordion
-          :allow-multiple="true"
-          :allow-toggle="true"
-          class="container"
-        >
+        <c-accordion :allow-toggle="true" class="container">
           <c-accordion-item border="none">
             <c-accordion-header border="none" bg="white" class="vtrv-acordion">
               <figure class="image">
