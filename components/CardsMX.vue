@@ -1,95 +1,122 @@
 <template>
-  <section class="cards-container">
-    <div class="card">
-      <div class="card-title-container">
-        <div class="polygon-1"></div>
-        <h2 class="card-title">básico</h2>
-        <div class="polygon-2"></div>
-      </div>
-      <ul>
-        <li>Estrategia digital.</li>
-        <li>Creación de campañas y conceptos de comunicación.</li>
-        <li>
-          Marketing operacional: creación de campañas, segmentación en canales
-          A/B Testing, tracking 360 y campañas de remarketing.
-        </li>
-        <li>
-          Contenido digital (2) formato: Diseño, video, copy Manejo de hasta 2
-          canales digitales según la estrategia y el segmento de la marca.
-        </li>
-        <li>Community management.</li>
-        <li>Ejecutiva o ejecutivo de cuenta.</li>
-        <li>Reporte mensual.</li>
-      </ul>
+  <div class="container">
+    <div class="title-cnt">
+      <h1 class="title">paquetes digital</h1>
     </div>
-    <div class="card">
-      <div class="card-title-container">
-        <div class="polygon-3"></div>
-        <h2 class="card-title">premium</h2>
-        <div class="polygon-4"></div>
+    <section class="cards-container">
+      <div class="card">
+        <div class="card-title-container">
+          <div class="polygon-1"></div>
+          <h2 class="card-title">básico</h2>
+          <div class="polygon-2"></div>
+        </div>
+        <ul>
+          <li>Estrategia digital.</li>
+          <li>Creación de campañas y conceptos de comunicación.</li>
+          <li>
+            Marketing operacional: creación de campañas, segmentación en canales
+            A/B Testing, tracking 360 y campañas de remarketing.
+          </li>
+          <li>
+            Contenido digital (2) formato: Diseño, video, copy Manejo de hasta 2
+            canales digitales según la estrategia y el segmento de la marca.
+          </li>
+          <li>Community management.</li>
+          <li>Ejecutiva o ejecutivo de cuenta.</li>
+          <li>Reporte mensual.</li>
+        </ul>
       </div>
-      <ul class="cardlist-2">
-        <li>Estrategia digital.</li>
-        <li>Creación de campañas y conceptos de comunicación.</li>
-        <li>
-          Marketing operacional: creación de campañas, segmentación en canales
-          A/B Testing, tracking 360 y campañas de remarketing en hasta 3 canales
-          digitales.
-        </li>
-        <li>
-          Manejo de hasta 3 canales digitales según la estrategia y el segmento
-          de la marca.
-        </li>
-        <li>
-          Contenido digital (3) formato: Diseño, video, copy Calendario digital.
-        </li>
-        <li>Ejecutiva o ejecutivo de cuenta.</li>
-        <li>Community management.</li>
-        <li>Dos reportes mensuales.</li>
-      </ul>
-    </div>
-    <div class="card">
-      <div class="card-title-container">
-        <div class="polygon-5"></div>
-        <h2 class="card-title">premium plus</h2>
-        <div class="polygon-6"></div>
+      <div class="card">
+        <div class="card-title-container">
+          <div class="polygon-3"></div>
+          <h2 class="card-title">premium</h2>
+          <div class="polygon-4"></div>
+        </div>
+        <ul class="cardlist-2">
+          <li>Estrategia digital.</li>
+          <li>Creación de campañas y conceptos de comunicación.</li>
+          <li>
+            Marketing operacional: creación de campañas, segmentación en canales
+            A/B Testing, tracking 360 y campañas de remarketing en hasta 3
+            canales digitales.
+          </li>
+          <li>
+            Manejo de hasta 3 canales digitales según la estrategia y el
+            segmento de la marca.
+          </li>
+          <li>
+            Contenido digital (3) formato: Diseño, video, copy Calendario
+            digital.
+          </li>
+          <li>Ejecutiva o ejecutivo de cuenta.</li>
+          <li>Community management.</li>
+          <li>Dos reportes mensuales.</li>
+        </ul>
       </div>
-      <ul class="cardlist-3">
-        <li>Análisis de data en tiempo real de hasta 4 canales digitales.</li>
-        <li>Optimización de campañas con IA</li>
-        <li>Estrategia digital.</li>
-        <li>Creación de campañas y conceptos de comunicación.</li>
-        <li>
-          Marketing operacional: creación de campañas, segmentación en canales
-          A/B Testing, tracking 360 y campañas de remarketing.
-        </li>
-        <li>
-          Contenido digital (4) formato: Diseño, ilustración, motion graphics,
-          video, copy
-        </li>
-        <li>Calendario digital.</li>
-        <li>
-          Manejo de hasta 4 canales digitales según la estrategia y el segmento
-          de la marca.
-        </li>
-        <li>Instalación de pixel de seguimiento.</li>
-        <li>Community management.</li>
-        <li>Ejecutiva o ejecutivo de cuenta.</li>
-        <li>Dos reportes mensuales.</li>
-      </ul>
-    </div>
-  </section>
+      <div class="card">
+        <div class="card-title-container">
+          <div class="polygon-5"></div>
+          <h2 class="card-title">premium plus</h2>
+          <div class="polygon-6"></div>
+        </div>
+        <ul class="cardlist-3">
+          <li>Análisis de data en tiempo real de hasta 4 canales digitales.</li>
+          <li>Optimización de campañas con IA</li>
+          <li>Estrategia digital.</li>
+          <li>Creación de campañas y conceptos de comunicación.</li>
+          <li>
+            Marketing operacional: creación de campañas, segmentación en canales
+            A/B Testing, tracking 360 y campañas de remarketing.
+          </li>
+          <li>
+            Contenido digital (4) formato: Diseño, ilustración, motion graphics,
+            video, copy
+          </li>
+          <li>Calendario digital.</li>
+          <li>
+            Manejo de hasta 4 canales digitales según la estrategia y el
+            segmento de la marca.
+          </li>
+          <li>Instalación de pixel de seguimiento.</li>
+          <li>Community management.</li>
+          <li>Ejecutiva o ejecutivo de cuenta.</li>
+          <li>Dos reportes mensuales.</li>
+        </ul>
+      </div>
+    </section>
+  </div>
 </template>
 
 <style scoped>
-.cards-container {
+.container {
   background-color: #ffd634;
   background-image: url('@/assets/images/bg-paquetes.png');
-  background-repeat: nepo-reat;
+  background-size: cover;
   height: 100vh;
+}
+.title-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 2.5%;
+}
+.title {
+  padding: 1rem 4rem;
+  background-color: var(--metodologia);
+  color: #fff;
+  font-size: 4rem;
+  font-family: sifonn;
+  text-transform: uppercase;
+  width: fit-content;
+  text-align: center;
+}
+
+.cards-container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-top: 5rem;
 }
 .card {
   width: 49rem;
