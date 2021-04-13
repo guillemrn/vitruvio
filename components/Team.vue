@@ -37,7 +37,7 @@
           <img src="https://i.imgur.com/jsmb3IP.png" alt="Kenji" />
         </figure>
         <h3>KENJI K.</h3>
-        <p>MUSICALIZADOR</p>
+        <p>compositor</p>
       </nuxt-link>
       <nuxt-link to="/Equipo/Diana" class="item">
         <figure>
@@ -51,7 +51,7 @@
           <img src="https://i.imgur.com/69px3yd.png" alt="Nayelhi" />
         </figure>
         <h3>NAYELHI D.</h3>
-        <p>ESTRÁTEGA DIGITAL</p>
+        <p>ESTRATEGA DIGITAL</p>
       </nuxt-link>
       <nuxt-link to="/Equipo/Nelly" class="item">
         <figure>
