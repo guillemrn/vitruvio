@@ -9,7 +9,7 @@
       <p>
         Cuando juzgamos que algo es
         <strong>BELLO, FEO, SUBLIME O ELEGANTE,</strong> estamos haciendo
-        haciendo juicios estéticos, basadas en la
+        juicios estéticos, basados en la
         <strong>anatomía física y conceptual</strong>
         de las cosas.
       </p>
@@ -39,7 +39,6 @@ h2 {
   font-size: 2.8rem;
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 15px;
 }
 span {
   font-size: 5.3rem;
