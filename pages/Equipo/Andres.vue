@@ -48,12 +48,12 @@
           </div>
           <div>
             <video controls class="video-vtrv">
-              <source src="@/assets/animacion/2.mp4" type="video/mp4" />
+              <source src="https://i.imgur.com/Gv4T1pT.mp4" type="video/mp4" />
             </video>
           </div>
           <div>
             <video controls class="video-vtrv">
-              <source src="@/assets/animacion/3.mp4" type="video/mp4" />
+              <source src="https://i.imgur.com/PAUBU7M.mp4" type="video/mp4" />
             </video>
           </div>
           <div>
@@ -63,7 +63,7 @@
           </div>
           <div>
             <video controls class="video-vtrv">
-              <source src="@/assets/animacion/5.mp4" type="video/mp4" />
+              <source src="@/assets/animacion/2.mp4" type="video/mp4" />
             </video>
           </div>
         </VueSlickCarousel>
@@ -107,7 +107,7 @@ export default {
         dots: true,
         dotsClas: 'slick-dots custom-dot-class',
         edgeFrictio: 0.35,
-        infinite: false,
+        infinite: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,

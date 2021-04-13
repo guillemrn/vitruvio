@@ -55,7 +55,7 @@ export default {
   text-align: center;
   width: 100%;
   height: 100vh;
-  background-color: var(--yellow);
+  background-color: var(--metodologia);
   display: flex;
   align-items: center;
   justify-content: center;

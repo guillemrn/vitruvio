@@ -1,8 +1,6 @@
 <template>
   <div id="quienesSomos" class="videoContainer">
     <iframe
-      width="560"
-      height="315"
       src="https://www.youtube.com/embed/g6UVUvL96rE"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -18,9 +16,14 @@
   text-align: center;
   width: 100%;
   height: 100vh;
+  background-color: var(--metodologia);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .videoContainer iframe {
-  width: 100%;
-  height: 100%;
+  border-radius: 2rem;
+  width: 100rem;
+  height: 60rem;
 }
 </style>
