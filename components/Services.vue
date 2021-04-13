@@ -20,9 +20,9 @@
               </c-box>
             </c-accordion-header>
             <c-accordion-panel pb="4" class="vtrv-text">
-              Análisis de data • Ingeniería de datos • Desarrollo de modelos de
-              Machine Learning • Creación de estrategias SEO y SEM • Desarrollo
-              de contenido • Gestión de campañas digitales • Segmentación •
+              • Análisis de data • Ingeniería de datos • Desarrollo de modelos
+              de Machine Learning • Creación de estrategias SEO y SEM • de
+              contenido • Gestión de campañas digitales • Segmentación •
               Community management
             </c-accordion-panel>
           </c-accordion-item>
@@ -36,7 +36,7 @@
               </c-box>
             </c-accordion-header>
             <c-accordion-panel pb="4" class="vtrv-text">
-              Campañas de branding • Campañas de lanzamiento • Campañas de
+              • Campañas de branding • Campañas de lanzamiento • Campañas de
               temporalidades • Campañas de venta
             </c-accordion-panel>
           </c-accordion-item>
@@ -53,7 +53,7 @@
               </c-box>
             </c-accordion-header>
             <c-accordion-panel pb="4" class="vtrv-text">
-              Análisis de data • Mistery shopper • Estudios de mercado •
+              • Análisis de data • Mistery shopper • Estudios de mercado •
               Definición de Buyer persona • Análisis cualitativo y cuantitativo
             </c-accordion-panel>
           </c-accordion-item>
@@ -67,8 +67,8 @@
               </c-box>
             </c-accordion-header>
             <c-accordion-panel pb="4" class="vtrv-text">
-              Comerciales • Video clips • Cineminutos Video corporativo • Video
-              en estudio • Digital
+              • Comerciales • Video clips • Cineminutos Video corporativo •
+              Video en estudio • Digital
             </c-accordion-panel>
           </c-accordion-item>
           <c-accordion-item border="none">
@@ -79,7 +79,7 @@
               <c-box flex="1" text-align="left" class="title"> branding </c-box>
             </c-accordion-header>
             <c-accordion-panel pb="4" class="vtrv-text">
-              Creatividad • Comunicación • Gestión de estrategias •
+              • Creatividad • Comunicación • Gestión de estrategias •
               Planificación y estructuración de marca • Creación de Identidad
             </c-accordion-panel>
           </c-accordion-item>
@@ -93,7 +93,7 @@
               </c-box>
             </c-accordion-header>
             <c-accordion-panel pb="4" class="vtrv-text">
-              Diseño o rediseño de web • Creación de contenidos • Hospedaje •
+              • Diseño o rediseño de web • Creación de contenidos • Hospedaje •
               Programación • SEO / SEM
             </c-accordion-panel>
           </c-accordion-item>
@@ -110,7 +110,7 @@
               </c-box>
             </c-accordion-header>
             <c-accordion-panel pb="4" class="vtrv-text">
-              Tradicionales y digitales • Estrategias • Pautas • Negociación y
+              • Tradicionales y digitales • Estrategias • Pautas • Negociación y
               compra • Seguimiento
             </c-accordion-panel>
           </c-accordion-item>
@@ -124,7 +124,7 @@
               </c-box>
             </c-accordion-header>
             <c-accordion-panel pb="4" class="vtrv-text">
-              Conceptualización • Creación • Concepto gráfico • Análisis del
+              • Conceptualización • Creación • Concepto gráfico • Análisis del
               color
             </c-accordion-panel>
           </c-accordion-item>
@@ -138,7 +138,7 @@
               </c-box>
             </c-accordion-header>
             <c-accordion-panel pb="4" class="vtrv-text">
-              Publicitaria • Producto • Documental • Moda • Editorial
+              • Publicitaria • Producto • Documental • Moda • Editorial
             </c-accordion-panel>
           </c-accordion-item>
           <c-accordion-item border="none">
@@ -154,7 +154,7 @@
               </c-box>
             </c-accordion-header>
             <c-accordion-panel pb="4" class="vtrv-text">
-              Composición Musical • Jingle • Spots radio • Diseño sonoro •
+              • Composición Musical • Jingle • Spots radio • Diseño sonoro •
               Grabación en estudio • Mezcla • Sonido directo
             </c-accordion-panel>
           </c-accordion-item>
@@ -171,7 +171,7 @@
               </c-box>
             </c-accordion-header>
             <c-accordion-panel pb="4" class="vtrv-text">
-              Digital • Editorial • Medios tradicionales
+              • Digital • Editorial • Medios tradicionales
             </c-accordion-panel>
           </c-accordion-item>
           <c-accordion-item border="none">
@@ -184,7 +184,7 @@
               </c-box>
             </c-accordion-header>
             <c-accordion-panel pb="4" class="vtrv-text">
-              2D • 3D • Stop motion • Motion graphics
+              • 2D • 3D • Stop motion • Motion graphics
             </c-accordion-panel>
           </c-accordion-item>
         </c-accordion>
