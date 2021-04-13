@@ -46,21 +46,21 @@
         <h3>diana t.</h3>
         <p>FOTÓGRAFA</p>
       </nuxt-link>
-      <nuxt-link to="/Equipo/Nelly" class="item">
+      <nuxt-link to="/Equipo/Nayelhi" class="item">
         <figure>
           <img src="https://i.imgur.com/69px3yd.png" alt="Nayelhi" />
         </figure>
         <h3>NAYELHI D.</h3>
         <p>ESTRATEGA DIGITAL</p>
       </nuxt-link>
-      <nuxt-link to="/Equipo/Nelly" class="item">
+      <nuxt-link to="/Equipo/Isaac" class="item">
         <figure>
           <img src="https://i.imgur.com/wPjL4KP.png" alt="Isaac" />
         </figure>
         <h3>ISAAC R.</h3>
         <p>ESPECIALISTA EN DATA</p>
       </nuxt-link>
-      <nuxt-link to="/Equipo/Nelly" class="item">
+      <nuxt-link to="#" class="item">
         <figure>
           <img src="https://i.imgur.com/zRnud0L.png" alt="Gioconda" />
         </figure>
