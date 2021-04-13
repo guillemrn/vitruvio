@@ -22,6 +22,16 @@
         </figure>
         <h1 class="name">diana t.</h1>
         <p class="puesto">fotógrafa</p>
+        <p class="description">
+          Diana es una fotógrafa con más de 9 años de experiencia en fotografía
+          comercial y de retrato. Ha sido directora de fotografía editorial en
+          diferentes revistas y maneja la gerencia de un estudio de fotografía
+          en Guadalajara.
+        </p>
+        <p class="description">
+          Su ojo crítico y gran experiencia, hacen de sus fotografías el
+          elemento clave de cualquier campaña publicitaria.
+        </p>
       </div>
       <div class="video">
         <iframe
