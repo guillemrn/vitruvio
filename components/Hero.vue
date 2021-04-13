@@ -57,7 +57,7 @@ export default {
   font-family: sifonn;
 }
 .title {
-  font-size: 3.4rem;
+  font-size: 4rem;
   color: #fff;
   margin-left: 15rem;
   /* line-height: 8rem; */
@@ -68,8 +68,8 @@ export default {
   top: 30%;
 }
 .title span {
-  font-size: 13rem;
+  font-size: 15rem;
   text-transform: uppercase;
-  line-height: 110px;
+  line-height: 130px;
 }
 </style>
