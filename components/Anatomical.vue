@@ -51,6 +51,7 @@ p {
   margin: 4rem 0;
   padding: 0 14rem;
   letter-spacing: 1px;
+  text-align: justify;
 }
 strong {
   font-family: b-gothic;
