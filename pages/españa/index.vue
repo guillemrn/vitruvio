@@ -5,8 +5,8 @@
     <Anatomical />
     <VideoSpain />
     <Services />
-    <!-- <Team />
-    <Metodologia />
+    <Team />
+    <!-- <Metodologia />
     <Footer /> -->
   </div>
 </template>
