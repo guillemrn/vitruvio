@@ -60,13 +60,13 @@
         <h3>ISAAC R.</h3>
         <p>ESPECIALISTA EN DATA</p>
       </nuxt-link>
-      <nuxt-link to="#" class="item">
+      <!-- <nuxt-link to="#" class="item">
         <figure>
           <img src="https://i.imgur.com/zRnud0L.png" alt="Gioconda" />
         </figure>
         <h3>GIOCONDA L.</h3>
         <p>ATENCIÓN A CLIENTES</p>
-      </nuxt-link>
+      </nuxt-link> -->
     </div>
   </section>
 </template>
@@ -76,13 +76,17 @@
   background-color: var(--yellow-team);
 }
 .team-img img {
-  margin: 15rem 10rem 10rem;
+  margin: 12rem 8rem 8rem;
+  width: 60rem;
 }
 .team {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
   text-align: center;
+}
+.team img {
+  width: 35rem;
 }
 .item {
   margin: 4rem;
@@ -91,13 +95,112 @@
 }
 .item h3 {
   font-family: sifonn;
-  font-size: 2.7rem;
+  font-size: 3rem;
   margin: 2.5rem 0 1.8rem 0;
   text-transform: uppercase;
 }
 .item p {
   font-family: c-gothic;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
+}
+
+/* -------------------------------------------Responsive design */
+
+@media screen and (max-width: 1536px) {
+}
+@media screen and (max-width: 1440px) {
+  .team img {
+    width: 32rem;
+  }
+  .item h3 {
+    font-size: 2.8rem;
+    margin: 2rem 0 1.5rem 0;
+  }
+  .item p {
+    font-size: 2.2rem;
+  }
+  .team-img img {
+    margin: 10rem 6rem 6rem;
+    width: 50rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 1024px) {
+  .team img {
+    width: 25rem;
+  }
+  .item h3 {
+    font-size: 2.5rem;
+    margin: 2rem 0 1.5rem 0;
+  }
+  .item p {
+    font-size: 2rem;
+  }
+  .team-img img {
+    margin: 9rem 5rem 5rem;
+    width: 45rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .team {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .team-img img {
+    margin: 8rem 4rem 4rem;
+    width: 40rem;
+  }
+  .team img {
+    width: 28rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .team {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .team img {
+    width: 32rem;
+  }
+  .team-img img {
+    margin: 8rem 4rem 4rem;
+    width: 35rem;
+  }
+}
+@media screen and (max-width: 540px) {
+}
+@media screen and (max-width: 480px) {
+  .team-img img {
+    margin: 6rem 3rem 3rem;
+    width: 30rem;
+  }
+  .team img {
+    width: 30rem;
+  }
+}
+@media screen and (max-width: 426px) {
+}
+@media screen and (max-width: 376px) {
+  .team-img img {
+    margin: 4rem 2rem 2rem;
+    width: 25rem;
+  }
+  .team img {
+    width: 25rem;
+  }
+  .item h3 {
+    font-size: 2.2rem;
+  }
+  .item p {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .team-img img {
+    width: 20rem;
+  }
+  .team img {
+    width: 20rem;
+  }
 }
 </style>
