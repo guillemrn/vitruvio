@@ -4,8 +4,8 @@
     <Hero />
     <Anatomical />
     <VideoSpain />
-    <!-- <Services />
-    <Team />
+    <Services />
+    <!-- <Team />
     <Metodologia />
     <Footer /> -->
   </div>
