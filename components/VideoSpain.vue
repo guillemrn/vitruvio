@@ -69,4 +69,54 @@ export default {
   width: 70%;
   position: absolute;
 }
+
+/* -------------------------------------------Responsive design */
+
+@media screen and (max-width: 1536px) {
+}
+@media screen and (max-width: 1440px) {
+}
+@media screen and (max-width: 1280px) {
+  .videoContainer iframe {
+    width: 80rem;
+    height: 50rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .videoContainer iframe {
+    width: 70rem;
+    height: 50rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .videoContainer iframe {
+    width: 50rem;
+    height: 30rem;
+    border-radius: 1rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .videoContainer iframe {
+    width: 100%;
+    height: 25rem;
+  }
+}
+@media screen and (max-width: 540px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 426px) {
+  .videoContainer iframe {
+    width: 100%;
+    height: 20rem;
+  }
+}
+@media screen and (max-width: 376px) {
+}
+@media screen and (max-width: 320px) {
+  .videoContainer iframe {
+    width: 100%;
+    height: 15rem;
+  }
+}
 </style>
