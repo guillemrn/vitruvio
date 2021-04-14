@@ -2,8 +2,8 @@
   <div>
     <Navigation />
     <Hero />
-    <!-- <Anatomical />
-    <VideoSpain />
+    <Anatomical />
+    <!-- <VideoSpain />
     <Services />
     <Team />
     <Metodologia />

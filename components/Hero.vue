@@ -157,5 +157,8 @@ export default {
     line-height: 40px;
     font-size: 5rem;
   }
+  .title-container {
+    margin-top: 20rem;
+  }
 }
 </style>
