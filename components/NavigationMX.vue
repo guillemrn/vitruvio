@@ -41,4 +41,55 @@
 .nav a:hover {
   color: var(--metodologia);
 }
+
+/* -------------------------------------------Responsive design */
+
+@media screen and (max-width: 1536px) {
+  .nav a {
+    font-size: 2.4rem;
+    margin: 0 1rem;
+  }
+  .logo img {
+    width: 20rem;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .nav a {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .nav a {
+    font-size: 1.8rem;
+  }
+  .logo img {
+    width: 19rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .nav a {
+    font-size: 1.5rem;
+    margin: 0 0.4rem;
+  }
+  .logo img {
+    width: 18rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+}
+@media screen and (max-width: 540px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 426px) {
+}
+@media screen and (max-width: 376px) {
+}
+@media screen and (max-width: 320px) {
+}
 </style>
