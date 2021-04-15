@@ -106,4 +106,29 @@ h2 .subtitle-3 {
   font-family: c-gothic;
   font-size: 2rem;
 }
+
+/* -------------------------------------------Responsive design */
+
+@media screen and (max-width: 1536px) {
+}
+@media screen and (max-width: 1440px) {
+}
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+}
+@media screen and (max-width: 540px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 426px) {
+}
+@media screen and (max-width: 376px) {
+}
+@media screen and (max-width: 320px) {
+}
 </style>
