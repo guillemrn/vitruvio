@@ -74,9 +74,10 @@ h3 {
     padding: 0 8rem;
   }
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1366px) {
   h3 {
     padding: 0 6rem;
+    font-size: 3rem;
   }
   .social img {
     width: 28rem;
@@ -86,6 +87,11 @@ h3 {
   }
   .links {
     font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+  h3 {
+    padding: 0 6rem;
   }
 }
 @media screen and (max-width: 1024px) {

@@ -97,6 +97,8 @@ strong {
     width: 82rem;
   }
 }
+@media screen and (max-width: 1366px) {
+}
 @media screen and (max-width: 1280px) {
   p {
     margin: 3rem 0;

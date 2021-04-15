@@ -188,6 +188,11 @@ option {
     font-size: 2.4rem;
   }
 }
+@media screen and (max-width: 1366px) {
+  .form-field {
+    width: 50rem;
+  }
+}
 @media screen and (max-width: 1280px) {
   .form-field {
     width: 45rem;

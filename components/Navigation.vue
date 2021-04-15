@@ -58,6 +58,11 @@
     font-size: 2.2rem;
   }
 }
+@media screen and (max-width: 1366px) {
+  .nav a {
+    font-size: 2rem;
+  }
+}
 @media screen and (max-width: 1280px) {
   .nav a {
     font-size: 1.8rem;
