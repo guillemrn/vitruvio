@@ -37,7 +37,7 @@
   padding: 5rem 0;
 }
 .metodologia {
-  margin: 10rem 0 2rem 10rem;
+  margin: 5rem 0 2rem 10rem;
 }
 section {
   background-color: var(--metodologia);
@@ -72,7 +72,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 15rem;
+  margin: 0 10rem;
   text-align: center;
 }
 .a {
@@ -82,5 +82,174 @@ hr {
 .b {
   position: relative;
   bottom: 30rem;
+}
+
+/* -------------------------------------------Responsive design */
+
+@media screen and (max-width: 1536px) {
+  .lisa img {
+    width: 70rem;
+  }
+  .text-container {
+    margin: 0 6rem;
+  }
+  h3 {
+    font-size: 4.5rem;
+  }
+  p {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .lisa img {
+    width: 65rem;
+  }
+  h3 {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .metodologia {
+    margin: 5rem 0 2rem 5rem;
+  }
+  .metodologia img {
+    width: 70rem;
+  }
+  .lisa img {
+    width: 62rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .metodologia img {
+    width: 60rem;
+  }
+  .lisa img {
+    width: 50rem;
+  }
+  .text-container {
+    margin: 0 2rem;
+  }
+  h3 {
+    font-size: 3.5rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  .a {
+    position: relative;
+    bottom: -15rem;
+  }
+  .b {
+    position: relative;
+    bottom: 15rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .metodologia img {
+    width: 50rem;
+  }
+  .lisa img {
+    width: 40rem;
+  }
+  .a {
+    position: relative;
+    bottom: -5rem;
+  }
+  .b {
+    position: relative;
+    bottom: 5rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .metodologia img {
+    width: 40rem;
+  }
+  .lisa img {
+    width: 30rem;
+  }
+  .a {
+    position: relative;
+    bottom: 0;
+  }
+  .b {
+    position: relative;
+    bottom: 0;
+  }
+  .metodologia {
+    margin: 5rem 0 3rem 2rem;
+  }
+}
+@media screen and (max-width: 540px) {
+  h3 {
+    font-size: 2.8rem;
+  }
+  p {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .metodologia img {
+    width: 35rem;
+  }
+  .lisa img {
+    width: 25rem;
+  }
+  h3 {
+    font-size: 2.6rem;
+  }
+  p {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 426px) {
+  .metodologia img {
+    width: 30rem;
+  }
+  .lisa img {
+    width: 20em;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  .metodologia img {
+    width: 25rem;
+  }
+  .lisa img {
+    width: 18em;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .metodologia img {
+    width: 23rem;
+  }
+  .lisa img {
+    width: 16em;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
 }
 </style>

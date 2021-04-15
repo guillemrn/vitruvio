@@ -6,8 +6,8 @@
     <VideoSpain />
     <Services />
     <Team />
-    <!-- <Metodologia />
-    <Footer /> -->
+    <Metodologia />
+    <!-- <Footer /> -->
   </div>
 </template>
 
