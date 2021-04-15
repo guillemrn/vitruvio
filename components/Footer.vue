@@ -64,4 +64,139 @@ h3 {
 .links:hover {
   color: var(--metodologia);
 }
+
+/* -------------------------------------------Responsive design */
+
+@media screen and (max-width: 1536px) {
+}
+@media screen and (max-width: 1440px) {
+  h3 {
+    padding: 0 8rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+  h3 {
+    padding: 0 6rem;
+  }
+  .social img {
+    width: 28rem;
+  }
+  .links-container img {
+    width: 24rem;
+  }
+  .links {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  h3 {
+    padding: 0 4rem;
+    font-size: 3rem;
+  }
+  .social img {
+    width: 24rem;
+  }
+  .links-container img {
+    width: 20rem;
+  }
+  .links {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    height: 100%;
+    text-align: center;
+    padding: 4rem 0;
+  }
+  h3 {
+    font-size: 3.8rem;
+  }
+  .social img {
+    width: 24rem;
+  }
+  .links-container img {
+    width: 24rem;
+  }
+  .links {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  h3 {
+    font-size: 3.4rem;
+  }
+  .social img {
+    width: 20rem;
+  }
+  .links {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 540px) {
+  .links {
+    font-size: 1.7rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  h3 {
+    font-size: 3rem;
+  }
+  .social img {
+    width: 18rem;
+    margin: 1rem;
+  }
+  .links-container img {
+    width: 20rem;
+  }
+  .links {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 426px) {
+  h3 {
+    font-size: 2.5rem;
+  }
+  .social img {
+    width: 17rem;
+  }
+  .links-container img {
+    width: 18rem;
+  }
+  .links {
+    font-size: 1.5rem;
+    padding: 0 2rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  h3 {
+    font-size: 2.2rem;
+  }
+  .social img {
+    width: 15rem;
+  }
+  .links-container img {
+    width: 16rem;
+  }
+  .links {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  h3 {
+    font-size: 1.8rem;
+  }
+  .social img {
+    width: 12rem;
+  }
+  .links-container img {
+    width: 15rem;
+  }
+}
 </style>
