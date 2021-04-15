@@ -67,8 +67,8 @@
           <label class="form-label" for="date"
             >¿CUÁNDO PODEMOS HABLAR CONTIGO?</label
           ><br />
-          <div data-netlify-recaptcha="true"></div>
           <input class="form-button" type="submit" value="ENVIAR" />
+          <div data-netlify-recaptcha="true"></div>
         </div>
       </form>
     </div>
@@ -76,6 +76,9 @@
 </template>
 
 <style scoped>
+.container {
+  height: 100vh;
+}
 .hidden {
   display: none;
 }
@@ -98,6 +101,7 @@ form div {
   color: #ec008c;
   font-family: c-gothic;
   font-size: 2.8rem;
+  text-transform: uppercase;
 }
 .form-field {
   border: 1px solid #ec008c;
@@ -150,7 +154,7 @@ select:-moz-focusring {
   padding: 1rem 7rem;
   border: none;
   border-radius: 5rem;
-  margin-top: 25rem;
+  margin-top: 5rem;
   outline-color: #ec008c;
   transition: 300ms;
   cursor: pointer;
@@ -167,5 +171,130 @@ option {
   -webkit-box-shadow: inset 0px 10px 30px -10px rgb(0 0 0 / 75%);
   -moz-box-shadow: inset 0px 10px 30px -10px rgb(0 0 0 / 75%);
   box-shadow: inset 0px 10px 30px -10px rgb(0 0 0 / 75%);
+}
+
+/* -------------------------------------------Responsive design */
+
+@media screen and (max-width: 1536px) {
+  .form-field {
+    width: 58rem;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .form-field {
+    width: 56rem;
+  }
+  .form-label {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .form-field {
+    width: 45rem;
+  }
+  .form-label {
+    font-size: 2rem;
+  }
+  .form-button {
+    font-size: 4rem;
+    padding: 1rem 7rem;
+    border-radius: 5rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .form-field {
+    width: 35rem;
+  }
+  .form-label {
+    font-size: 1.5rem;
+  }
+  .form-button {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  form {
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: left;
+    padding: 0 8rem;
+  }
+  form div {
+    margin: 0 8rem;
+  }
+  .container {
+    height: 100%;
+  }
+  .form-button {
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+  }
+}
+@media screen and (max-width: 576px) {
+}
+@media screen and (max-width: 540px) {
+}
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 3rem;
+    margin: 6rem 0 2rem 0;
+  }
+  .form-button {
+    font-size: 3.2rem;
+  }
+}
+@media screen and (max-width: 426px) {
+  .title {
+    font-size: 2.8rem;
+  }
+  .form-field {
+    width: 30rem;
+    margin-top: 2.5rem;
+    font-size: 1.6rem;
+  }
+  .form-label {
+    font-size: 1.4rem;
+  }
+  .form-button {
+    margin-left: 3rem;
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  .title {
+    font-size: 2.6rem;
+  }
+  .form-field {
+    width: 28rem;
+  }
+  .form-label {
+    font-size: 1.2rem;
+  }
+  .form-button {
+    margin-left: 2.5rem;
+    font-size: 2.5rem;
+  }
+  form {
+    padding: 0 6rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .title {
+    font-size: 2.2rem;
+  }
+  .form-field {
+    width: 24rem;
+  }
+  .form-label {
+    font-size: 1.1rem;
+  }
+  .form-button {
+    margin-left: 2rem;
+    font-size: 2rem;
+  }
+  form {
+    padding: 0 4rem;
+  }
 }
 </style>
