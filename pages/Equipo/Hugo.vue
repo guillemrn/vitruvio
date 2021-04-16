@@ -326,7 +326,7 @@ export default {
     font-size: 1.4rem;
   }
   .carousel-vtrv {
-    top: 120%;
+    top: 220%;
   }
 }
 @media screen and (max-width: 320px) {
@@ -342,7 +342,7 @@ export default {
     padding: 4rem 2rem;
   }
   .carousel-vtrv {
-    top: 170%;
+    top: 220%;
   }
 }
 </style>

@@ -70,7 +70,7 @@ export default {
 .title span {
   font-size: 15rem;
   text-transform: uppercase;
-  line-height: 130px;
+  /* line-height: 130px; */
 }
 
 /* -------------------------------------------Responsive design */
@@ -110,16 +110,16 @@ export default {
     margin-left: 0;
     text-align: center;
   }
-  .title span {
+  /* .title span {
     line-height: 110px;
-  }
+  } */
 }
 @media screen and (max-width: 576px) {
   .title {
     font-size: 2.5rem;
   }
   .title span {
-    line-height: 80px;
+    /* line-height: 80px; */
     font-size: 9rem;
   }
   .title-container {
@@ -128,7 +128,7 @@ export default {
 }
 @media screen and (max-width: 540px) {
   .title span {
-    line-height: 70px;
+    /* line-height: 70px; */
     font-size: 8rem;
   }
   .title {
@@ -137,7 +137,7 @@ export default {
 }
 @media screen and (max-width: 480px) {
   .title span {
-    line-height: 60px;
+    /* line-height: 60px; */
     font-size: 7rem;
   }
 }
@@ -145,7 +145,7 @@ export default {
 }
 @media screen and (max-width: 376px) {
   .title span {
-    line-height: 50px;
+    /* line-height: 60px; */
     font-size: 6rem;
   }
   .title {
@@ -154,7 +154,7 @@ export default {
 }
 @media screen and (max-width: 320px) {
   .title span {
-    line-height: 55px;
+    /* line-height: 65px; */
     font-size: 5rem;
   }
   .title-container {

@@ -243,19 +243,10 @@
   }
 }
 @media screen and (max-width: 576px) {
-  .logo img {
-    width: 18rem;
-  }
 }
 @media screen and (max-width: 540px) {
-  .logo img {
-    width: 16rem;
-  }
 }
 @media screen and (max-width: 480px) {
-  .logo img {
-    width: 15rem;
-  }
 }
 @media screen and (max-width: 426px) {
 }
