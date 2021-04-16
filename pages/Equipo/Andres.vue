@@ -340,6 +340,9 @@ export default {
     width: 25rem;
     height: 15rem;
   }
+  .carousel-vtrv {
+    top: 250%;
+  }
 }
 @media screen and (max-width: 320px) {
   .name {
@@ -358,7 +361,7 @@ export default {
     height: 15rem;
   }
   .carousel-vtrv {
-    top: 170%;
+    top: 250%;
   }
 }
 </style>
