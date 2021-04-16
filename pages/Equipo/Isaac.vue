@@ -22,14 +22,25 @@
         </figure>
         <h1 class="name">ISAAC R.</h1>
         <p class="puesto">Físico y analista de data</p>
-      </div>
-      <div class="description">
-        <p>
+        <p class="ab">
           Isaac es un analista de datos por Centrogeo conacyt. Experto en la
           optimización de presupuesto, problemas de ruteo, movilidad y
           logística.
         </p>
-        <p>
+        <p class="ab">
+          Isaac ha ganado concursos sobre emprendimiento social y científicos en
+          universidades Top de USA como MIT, Boston collage y Loyola Marymount
+          University y ha trabajado para marcas como: DIDI Mobility, IBM y
+          Logrand Entretainment Group.
+        </p>
+      </div>
+      <div class="description cd">
+        <p class="cd">
+          Isaac es un analista de datos por Centrogeo conacyt. Experto en la
+          optimización de presupuesto, problemas de ruteo, movilidad y
+          logística.
+        </p>
+        <p class="cd">
           Isaac ha ganado concursos sobre emprendimiento social y científicos en
           universidades Top de USA como MIT, Boston collage y Loyola Marymount
           University y ha trabajado para marcas como: DIDI Mobility, IBM y
@@ -83,6 +94,9 @@ export default {
   text-transform: uppercase;
   margin-top: 3.5rem;
 }
+.ab {
+  display: none;
+}
 .description {
   font-family: c-gothic;
   font-size: 3rem;
@@ -123,5 +137,143 @@ export default {
   position: absolute;
   top: 80%;
   left: 35%;
+}
+
+/* -------------------------------------------Responsive design */
+
+@media screen and (max-width: 1536px) {
+  .team-bar {
+    width: 50rem;
+  }
+  .team-bar img {
+    width: 25rem;
+  }
+  .name {
+    font-size: 4rem;
+  }
+  .description {
+    font-size: 2.2rem;
+    padding: 0;
+  }
+  .puesto {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .description {
+    font-size: 2.1rem;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .team-bar {
+    width: 45rem;
+  }
+  .team-bar img {
+    width: 20rem;
+  }
+  .name {
+    font-size: 3.5rem;
+  }
+  .puesto {
+    font-size: 2rem;
+  }
+  .description {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .description {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .team-bar {
+    width: 40rem;
+  }
+  .description {
+    font-size: 1.8rem;
+  }
+  .puesto {
+    font-size: 1.8rem;
+  }
+  .cd {
+    padding: 0;
+  }
+  .music iframe {
+    width: 25rem;
+    height: 33rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+  }
+  .team-bar {
+    width: 100vw;
+  }
+  .ab {
+    display: initial;
+    font-family: c-gothic;
+    font-size: 1.6rem;
+    color: #fff;
+    margin-top: 5rem;
+    margin-bottom: 0;
+    width: auto;
+    padding: 0 1rem;
+  }
+  .cd {
+    display: none;
+  }
+  .music iframe {
+    margin: 2rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .music {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+  }
+  .music iframe {
+    width: 30rem;
+    height: 38rem;
+  }
+}
+@media screen and (max-width: 540px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 426px) {
+  .puesto {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  .team-bar img {
+    width: 18rem;
+  }
+  .name {
+    font-size: 3rem;
+  }
+  .ab {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .name {
+    font-size: 2.5rem;
+  }
+  .puesto {
+    font-size: 1.4em;
+  }
+  .team-bar {
+    width: 100vw;
+    height: 100%;
+    padding: 4rem 2rem;
+  }
 }
 </style>
