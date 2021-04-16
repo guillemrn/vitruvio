@@ -23,7 +23,7 @@
 main {
   background-color: var(--yellow);
   padding: 8rem 4rem;
-  height: 100vh;
+  height: 100%;
 }
 .title {
   font-family: c-gothic;
@@ -85,5 +85,176 @@ figure {
   font-family: c-gothic;
   font-size: 1.5rem;
   margin-top: -0.5rem;
+}
+
+/* -------------------------------------------Responsive design */
+
+@media screen and (max-width: 1536px) {
+}
+@media screen and (max-width: 1440px) {
+  .title {
+    font-size: 3.4rem;
+  }
+  .subtitle {
+    font-size: 8rem;
+  }
+  .container img {
+    width: 85rem;
+  }
+  .mx,
+  .spain {
+    font-size: 3.8rem;
+  }
+  .spain span {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .title {
+    font-size: 3.2rem;
+  }
+  .container img {
+    width: 80rem;
+  }
+  .mx,
+  .spain {
+    font-size: 3.7rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main {
+    padding: 8rem 2rem;
+  }
+  .title {
+    font-size: 2.8rem;
+  }
+  .subtitle {
+    font-size: 6rem;
+  }
+  .container img {
+    width: 70rem;
+  }
+  .mx,
+  .spain {
+    font-size: 3.4rem;
+  }
+  .spain span {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container img {
+    display: none;
+  }
+  main {
+    background-image: url('@/assets/images/map-mov.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding: 8rem 4rem;
+  }
+  .cta {
+    margin-top: 3rem;
+  }
+  .mx,
+  .spain {
+    font-size: 4rem;
+  }
+  .spain span {
+    font-size: 1.5rem;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+  .subtitle {
+    font-size: 7rem;
+    text-align: left;
+    margin-left: 12rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  main {
+    padding: 8rem 2rem;
+  }
+  .mx,
+  .spain {
+    font-size: 3.8rem;
+  }
+  .spain span {
+    font-size: 1.4rem;
+  }
+  .title {
+    font-size: 2rem;
+    margin-top: 5rem;
+  }
+  .subtitle {
+    font-size: 5rem;
+    margin-left: 11rem;
+  }
+}
+@media screen and (max-width: 540px) {
+  main {
+    background-position-x: -100px;
+  }
+  .mx,
+  .spain {
+    font-size: 3.6rem;
+  }
+  .spain span {
+    font-size: 1.3rem;
+  }
+  .title {
+    font-size: 1.8rem;
+  }
+  .subtitle {
+    font-size: 4.6rem;
+    margin-left: 10rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .mx,
+  .spain {
+    font-size: 3.4rem;
+  }
+  .spain span {
+    font-size: 1.2rem;
+  }
+  .title {
+    font-size: 1.6rem;
+  }
+  .subtitle {
+    font-size: 4rem;
+    margin-left: 10rem;
+  }
+}
+@media screen and (max-width: 426px) {
+  .title {
+    font-size: 1.4rem;
+  }
+  .subtitle {
+    font-size: 4rem;
+    margin-left: 6rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  .title {
+    font-size: 1.2rem;
+  }
+  .subtitle {
+    margin-left: 4rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .title {
+    font-size: 1rem;
+  }
+  .subtitle {
+    margin-left: 3rem;
+    font-size: 3.4rem;
+  }
 }
 </style>

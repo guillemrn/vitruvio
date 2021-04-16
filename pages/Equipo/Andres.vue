@@ -174,4 +174,191 @@ export default {
   width: 70rem;
   height: 45rem;
 }
+
+/* -------------------------------------------Responsive design */
+
+@media screen and (max-width: 1536px) {
+  .video iframe {
+    width: 60rem;
+    height: 40rem;
+  }
+  .team-bar {
+    width: 50rem;
+  }
+  .team-bar img {
+    width: 25rem;
+  }
+  .name {
+    font-size: 4rem;
+  }
+  .carousel-vtrv {
+    left: 42%;
+  }
+  .carousel-vtrv img {
+    height: 20rem;
+  }
+  .videoContainer .video-vtrv {
+    border-radius: 1rem;
+    width: 60rem;
+    height: 40rem;
+  }
+  .puesto {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .videoContainer .video-vtrv {
+    width: 55rem;
+    height: 35rem;
+  }
+  .carousel-vtrv {
+    left: 42%;
+  }
+  .carousel-vtrv img {
+    height: 18rem;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .video iframe {
+    width: 50rem;
+    height: 30rem;
+  }
+  .carousel-vtrv {
+    left: 40%;
+    width: 55%;
+  }
+  .carousel-vtrv img {
+    height: 18rem;
+  }
+  .team-bar {
+    width: 45rem;
+  }
+  .team-bar img {
+    width: 20rem;
+  }
+  .name {
+    font-size: 3.5rem;
+  }
+  .puesto {
+    font-size: 2.2rem;
+  }
+  .description {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 1024px) {
+  .team-bar {
+    width: 40rem;
+  }
+  .puesto {
+    font-size: 1.8rem;
+  }
+  .carousel-vtrv {
+    left: 44%;
+    width: 52%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+  }
+  .team-bar {
+    width: 100vw;
+  }
+  .carousel-vtrv {
+    left: 5%;
+    width: 90%;
+    top: 120%;
+  }
+  .carousel-vtrv img {
+    height: 22rem;
+  }
+  .video {
+    margin-top: 5rem;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .carousel-vtrv {
+    left: 10%;
+    width: 80%;
+    top: 120%;
+  }
+  .videoContainer .video-vtrv {
+    width: 45rem;
+    height: 30rem;
+  }
+}
+@media screen and (max-width: 540px) {
+  .carousel-vtrv {
+    left: 11%;
+    padding: 0 2rem;
+  }
+  .carousel-vtrv img {
+    height: 19rem;
+  }
+  .slick-prev,
+  .slick-next {
+    top: 25%;
+  }
+  .videoContainer .video-vtrv {
+    width: 38rem;
+    height: 28rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .videoContainer .video-vtrv {
+    width: 30rem;
+    height: 20rem;
+  }
+}
+@media screen and (max-width: 426px) {
+  .videoContainer .video-vtrv {
+    width: 28rem;
+    height: 20rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  .team-bar img {
+    width: 18rem;
+  }
+  .name {
+    font-size: 3rem;
+  }
+  .puesto {
+    font-size: 1.8rem;
+  }
+  .description {
+    font-size: 1.4rem;
+  }
+  .videoContainer .video-vtrv {
+    width: 25rem;
+    height: 15rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .name {
+    font-size: 2.5rem;
+  }
+  .puesto {
+    font-size: 1.6em;
+  }
+  .team-bar {
+    width: 100vw;
+    height: 100%;
+    padding: 4rem 2rem;
+  }
+  .videoContainer .video-vtrv {
+    width: 20rem;
+    height: 15rem;
+  }
+  .carousel-vtrv {
+    top: 135%;
+  }
+}
 </style>

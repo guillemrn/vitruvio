@@ -37,8 +37,6 @@
       </div>
       <div class="video">
         <iframe
-          width="660"
-          height="415"
           src="https://www.youtube.com/embed/eKOgBG07tv4"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -48,6 +46,7 @@
         ></iframe>
         <div class="music">
           <VueSlickCarousel
+            v-bind="settings"
             class="carousel-vtrv"
             :arrows="true"
             :dots="false"
@@ -89,6 +88,21 @@ export default {
   components: {
     Navigation,
     VueSlickCarousel,
+  },
+  data() {
+    return {
+      settings: {
+        responsive: [
+          {
+            breakpoint: 480,
+            settings: {
+              variableWidth: false,
+              initialSlide: 7,
+            },
+          },
+        ],
+      },
+    }
   },
 }
 </script>
@@ -141,6 +155,8 @@ export default {
 .video iframe {
   text-align: center;
   border-radius: 1rem;
+  width: 660px;
+  height: 415px;
 }
 .close-icon {
   position: absolute;
@@ -158,5 +174,168 @@ export default {
   position: absolute;
   top: 80%;
   left: 35%;
+}
+
+/* -------------------------------------------Responsive design */
+
+@media screen and (max-width: 1536px) {
+  .video iframe {
+    width: 60rem;
+    height: 40rem;
+  }
+  .team-bar {
+    width: 50rem;
+  }
+  .team-bar img {
+    width: 25rem;
+  }
+  .name {
+    font-size: 4rem;
+  }
+  .carousel-vtrv {
+    left: 36%;
+  }
+  .carousel-vtrv img {
+    height: 20rem;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .video iframe {
+    width: 55rem;
+    height: 35rem;
+  }
+  .carousel-vtrv {
+    left: 37%;
+  }
+  .carousel-vtrv img {
+    height: 18rem;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .video iframe {
+    width: 50rem;
+    height: 30rem;
+  }
+  .carousel-vtrv {
+    left: 40%;
+    width: 55%;
+  }
+  .carousel-vtrv img {
+    height: 18rem;
+  }
+  .team-bar {
+    width: 45rem;
+  }
+  .team-bar img {
+    width: 20rem;
+  }
+  .name {
+    font-size: 3.5rem;
+  }
+  .puesto {
+    font-size: 2.4rem;
+  }
+  .description {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 1024px) {
+  .video iframe {
+    width: 45rem;
+    height: 25rem;
+  }
+  .team-bar {
+    width: 40rem;
+  }
+  .puesto {
+    font-size: 2rem;
+  }
+  .carousel-vtrv {
+    left: 44%;
+    width: 52%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+  }
+  .team-bar {
+    width: 100vw;
+  }
+  .carousel-vtrv {
+    left: 5%;
+    width: 90%;
+    top: 160%;
+  }
+  .carousel-vtrv img {
+    height: 22rem;
+  }
+  .video {
+    margin-top: 5rem;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .carousel-vtrv {
+    left: 10%;
+    width: 80%;
+    top: 160%;
+  }
+}
+@media screen and (max-width: 540px) {
+  .carousel-vtrv {
+    left: 11%;
+    top: 160%;
+    padding: 0 2rem;
+  }
+  .carousel-vtrv img {
+    height: 19rem;
+  }
+  .slick-prev,
+  .slick-next {
+    top: 25%;
+  }
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 426px) {
+}
+@media screen and (max-width: 376px) {
+  .team-bar img {
+    width: 18rem;
+  }
+  .name {
+    font-size: 3rem;
+  }
+  .puesto {
+    font-size: 1.8rem;
+  }
+  .description {
+    font-size: 1.4rem;
+  }
+  .carousel-vtrv {
+    top: 170%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .name {
+    font-size: 2.5rem;
+  }
+  .puesto {
+    font-size: 1.6em;
+  }
+  .team-bar {
+    width: 100vw;
+    height: 100%;
+    padding: 4rem 2rem;
+  }
+  .carousel-vtrv {
+    top: 200%;
+  }
 }
 </style>
