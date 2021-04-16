@@ -32,7 +32,11 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@nuxtjs/google-analytics',
   ],
+  googleAnalytics: {
+    id: 'UA-194693378-1',
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ['@chakra-ui/nuxt', '@nuxtjs/emotion'],
