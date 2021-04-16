@@ -302,8 +302,14 @@ export default {
   }
 }
 @media screen and (max-width: 480px) {
+  .carousel-vtrv {
+    top: 170%;
+  }
 }
 @media screen and (max-width: 426px) {
+  .carousel-vtrv {
+    top: 180%;
+  }
 }
 @media screen and (max-width: 376px) {
   .team-bar img {
@@ -319,7 +325,7 @@ export default {
     font-size: 1.4rem;
   }
   .carousel-vtrv {
-    top: 250%;
+    top: 170%;
   }
 }
 @media screen and (max-width: 320px) {

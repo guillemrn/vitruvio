@@ -316,11 +316,17 @@ export default {
     width: 30rem;
     height: 20rem;
   }
+  .carousel-vtrv {
+    top: 170%;
+  }
 }
 @media screen and (max-width: 426px) {
   .videoContainer .video-vtrv {
     width: 28rem;
     height: 20rem;
+  }
+  .carousel-vtrv {
+    top: 180%;
   }
 }
 @media screen and (max-width: 376px) {
@@ -341,7 +347,7 @@ export default {
     height: 15rem;
   }
   .carousel-vtrv {
-    top: 250%;
+    top: 170%;
   }
 }
 @media screen and (max-width: 320px) {
