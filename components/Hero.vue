@@ -154,7 +154,7 @@ export default {
 }
 @media screen and (max-width: 320px) {
   .title span {
-    line-height: 40px;
+    line-height: 55px;
     font-size: 5rem;
   }
   .title-container {
