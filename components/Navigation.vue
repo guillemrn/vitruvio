@@ -16,7 +16,7 @@
       <nuxt-link to="/contacto" class="link">Contacto</nuxt-link>
     </nav>
   </header> -->
-  <section class="nav-1">
+  <section id="header" class="nav-1">
     <nuxt-link to="/">
       <figure class="logo">
         <img src="@/assets/images/logo.png" alt="Logo vitruvio" />

@@ -2,6 +2,7 @@
   <div>
     <NavigationMX />
     <Hero />
+    <Up />
     <Anatomical />
     <Video />
     <Services />
@@ -14,6 +15,7 @@
 <script>
 import NavigationMX from '@/components/NavigationMX'
 import Hero from '@/components/Hero'
+import Up from '@/components/Up'
 import Anatomical from '@/components/Anatomical'
 import Video from '@/components/Video'
 import Services from '@/components/Services'
@@ -24,6 +26,7 @@ export default {
   components: {
     NavigationMX,
     Hero,
+    Up,
     Anatomical,
     Video,
     Services,

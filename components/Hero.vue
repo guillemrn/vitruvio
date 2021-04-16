@@ -1,5 +1,5 @@
 <template>
-  <main class="hero">
+  <main id="up" class="hero">
     <VueSlickCarousel
       :arrows="false"
       :dots="false"

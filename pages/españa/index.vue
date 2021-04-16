@@ -2,6 +2,7 @@
   <div>
     <Navigation />
     <Hero />
+    <Up />
     <Anatomical />
     <VideoSpain />
     <Services />
@@ -14,6 +15,7 @@
 <script>
 import Navigation from '@/components/Navigation'
 import Hero from '@/components/Hero'
+import Up from '@/components/Up'
 import Anatomical from '@/components/Anatomical'
 import VideoSpain from '@/components/VideoSpain'
 import Services from '@/components/Services'
@@ -24,6 +26,7 @@ export default {
   components: {
     Navigation,
     Hero,
+    Up,
     Anatomical,
     VideoSpain,
     Services,
