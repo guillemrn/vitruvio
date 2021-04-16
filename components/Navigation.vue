@@ -38,7 +38,9 @@
       <li>
         <nuxt-link to="/españa#metodologia" class="link">Metodología</nuxt-link>
       </li>
-      <li><nuxt-link to="/paquetes" class="link">Paquetes</nuxt-link></li>
+      <li>
+        <nuxt-link to="/paquetes" class="link">Paquetes</nuxt-link>
+      </li>
       <li><a href="#" class="link">Blog</a></li>
       <li><nuxt-link to="/contacto" class="link">Contacto</nuxt-link></li>
     </ul>
@@ -121,7 +123,7 @@
   clear: both;
   max-height: 0;
   transition: max-height 0.2s ease-out;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 /* menu icon */
@@ -212,9 +214,6 @@
 /* -------------------------------------------Responsive design */
 
 @media screen and (max-width: 1536px) {
-  .logo img {
-    width: 20rem;
-  }
 }
 @media screen and (max-width: 1440px) {
 }
@@ -224,22 +223,24 @@
   }
 }
 @media screen and (max-width: 1280px) {
-  .logo img {
-    width: 19rem;
-  }
 }
 @media screen and (max-width: 1024px) {
-  .logo img {
-    width: 18rem;
-  }
   .link {
     font-size: 1.1rem;
+  }
+  .logo img {
+    width: 21rem;
+    margin-top: 1rem;
   }
 }
 @media screen and (max-width: 768px) {
   .logo {
     position: relative;
     top: 12%;
+  }
+  .logo img {
+    width: 21rem;
+    margin-top: 0;
   }
 }
 @media screen and (max-width: 576px) {
