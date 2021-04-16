@@ -469,7 +469,7 @@ ul li {
     top: 127%;
   }
   .bg-image img {
-    height: 320%;
+    height: 343%;
   }
 }
 @media screen and (max-width: 320px) {
