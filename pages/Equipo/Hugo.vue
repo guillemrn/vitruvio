@@ -342,7 +342,7 @@ export default {
     padding: 4rem 2rem;
   }
   .carousel-vtrv {
-    top: 140%;
+    top: 170%;
   }
 }
 </style>

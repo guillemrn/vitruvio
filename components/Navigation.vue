@@ -130,7 +130,7 @@
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 28px 20px;
+  padding: 40px 20px;
   position: relative;
   user-select: none;
 }
@@ -237,6 +237,10 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .logo {
+    position: relative;
+    top: 12%;
+  }
 }
 @media screen and (max-width: 576px) {
   .logo img {
@@ -254,18 +258,9 @@
   }
 }
 @media screen and (max-width: 426px) {
-  .logo img {
-    width: 14rem;
-  }
 }
 @media screen and (max-width: 376px) {
-  .logo img {
-    width: 12rem;
-  }
 }
 @media screen and (max-width: 320px) {
-  .logo img {
-    width: 10rem;
-  }
 }
 </style>

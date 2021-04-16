@@ -21,4 +21,15 @@
 a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+  .cta-whatsapp img {
+    width: 8rem;
+  }
+}
+@media screen and (max-width: 426px) {
+  .cta-whatsapp img {
+    width: 7rem;
+  }
+}
 </style>

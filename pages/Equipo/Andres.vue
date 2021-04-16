@@ -358,7 +358,7 @@ export default {
     height: 15rem;
   }
   .carousel-vtrv {
-    top: 135%;
+    top: 170%;
   }
 }
 </style>

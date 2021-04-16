@@ -151,6 +151,7 @@ strong {
   }
   p {
     text-align: center;
+    text-align: justify;
   }
 }
 @media screen and (max-width: 576px) {
