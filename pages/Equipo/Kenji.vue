@@ -119,10 +119,10 @@ export default {
 }
 .description {
   font-family: c-gothic;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #212121;
   box-sizing: content-box;
-  padding: 0 10rem;
+  padding: 0 4rem;
   width: 60%;
 }
 .description p {

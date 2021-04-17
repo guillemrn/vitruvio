@@ -26,7 +26,7 @@
           Andrés es un animador digital especialista en motion graphics. Su
           formación como diseñador ha otorgado a sus animaciones una estética
           única, en la que se destacan su creación de personajes, ambientes y
-          tipografías
+          tipografías.
         </p>
         <p class="description">
           Andrés ha trabajado para marcas como HDI, Chiva cola, Petchoice y es
