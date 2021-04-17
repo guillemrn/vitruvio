@@ -17,8 +17,8 @@
             </c-accordion-header>
             <c-accordion-panel pb="4" class="vtrv-text">
               • Análisis de data • Ingeniería de datos • Desarrollo de modelos
-              de Machine Learning • Creación de estrategias SEO y SEM • de
-              contenido • Gestión de campañas digitales • Segmentación •
+              de Machine Learning • Creación de estrategias SEO y SEM • Creación
+              de contenido • Gestión de campañas digitales • Segmentación •
               Community management
             </c-accordion-panel>
           </c-accordion-item>
@@ -63,7 +63,7 @@
               </c-box>
             </c-accordion-header>
             <c-accordion-panel pb="4" class="vtrv-text">
-              • Comerciales • Video clips • Cineminutos Video corporativo •
+              • Comerciales • Video clips • Cineminutos • Video corporativo •
               Video en estudio • Digital
             </c-accordion-panel>
           </c-accordion-item>

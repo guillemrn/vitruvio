@@ -23,10 +23,10 @@
         <h1 class="name">andrés v.</h1>
         <p class="puesto">Animador y diseñador gráfico</p>
         <p class="description">
-          Andrés, es un animador digital especialista en motion graphics. Su
+          Andrés es un animador digital especialista en motion graphics. Su
           formación como diseñador ha otorgado a sus animaciones una estética
           única, en la que se destacan su creación de personajes, ambientes y
-          tipográficos
+          tipografías
         </p>
         <p class="description">
           Andrés ha trabajado para marcas como HDI, Chiva cola, Petchoice y es
