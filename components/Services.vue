@@ -289,6 +289,11 @@ export default {
     font-size: 3rem;
   }
 }
+@media screen and (max-width: 1200px) {
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 @media screen and (max-width: 1024px) {
   .vtrv-text {
     font-size: 1.4rem;
@@ -300,12 +305,22 @@ export default {
     margin: 8rem 0 5rem 3rem;
   }
 }
+@media screen and (max-width: 1000px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 @media screen and (max-width: 768px) {
   .container {
     grid-template-columns: repeat(2, 1fr);
   }
   .servicios img {
     width: 45rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .container {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media screen and (max-width: 576px) {

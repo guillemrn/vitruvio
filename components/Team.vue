@@ -141,6 +141,11 @@ p {
     margin: 5rem 8rem;
   }
 }
+@media screen and (max-width: 1200px) {
+  .team {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 @media screen and (max-width: 1024px) {
   .team img {
     width: 25rem;
@@ -160,6 +165,11 @@ p {
     width: 45rem;
   }
 }
+@media screen and (max-width: 1000px) {
+  .team {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 @media screen and (max-width: 768px) {
   .team {
     grid-template-columns: repeat(2, 1fr);
@@ -176,6 +186,11 @@ p {
   }
   .last-item {
     margin: 5rem 5rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .team {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media screen and (max-width: 576px) {

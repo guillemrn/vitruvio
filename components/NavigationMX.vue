@@ -199,7 +199,8 @@
     float: left;
   }
   .nav-1 li .link {
-    padding: 20px 20px;
+    padding: 0.8rem;
+    margin-top: 1rem;
   }
   .nav-1 .menu {
     clear: none;
@@ -223,6 +224,18 @@
   }
 }
 @media screen and (max-width: 1280px) {
+  .link {
+    font-size: 1.4rem;
+    padding: 0.8rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .link {
+    font-size: 1.2rem;
+  }
+  .logo img {
+    width: 22rem;
+  }
 }
 @media screen and (max-width: 1024px) {
   .link {
@@ -230,6 +243,15 @@
   }
   .logo img {
     width: 21rem;
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 830px) {
+  .link {
+    font-size: 1rem;
+  }
+  .logo img {
+    width: 18rem;
     margin-top: 1rem;
   }
 }

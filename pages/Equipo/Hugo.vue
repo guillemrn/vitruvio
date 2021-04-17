@@ -185,6 +185,9 @@ export default {
   .description {
     font-size: 2.9rem;
   }
+  .description p {
+    margin: 3rem;
+  }
 }
 @media screen and (max-width: 1440px) {
   .video iframe {
@@ -251,6 +254,11 @@ export default {
   }
   .cd {
     padding: 0;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .description p {
+    margin: 2rem;
   }
 }
 @media screen and (max-width: 768px) {
