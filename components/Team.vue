@@ -46,27 +46,22 @@
         <h3>diana t.</h3>
         <p>FOTÓGRAFA</p>
       </nuxt-link>
-      <nuxt-link to="/Equipo/Nayelhi" class="item">
+    </div>
+    <div class="last-items">
+      <nuxt-link to="/Equipo/Nayelhi" class="last-item">
         <figure>
           <img src="https://i.imgur.com/69px3yd.png" alt="Nayelhi" />
         </figure>
         <h3>NAYELHI D.</h3>
         <p>ESTRATEGA DIGITAL</p>
       </nuxt-link>
-      <nuxt-link to="/Equipo/Isaac" class="item">
+      <nuxt-link to="/Equipo/Isaac" class="last-item">
         <figure>
           <img src="https://i.imgur.com/wPjL4KP.png" alt="Isaac" />
         </figure>
         <h3>ISAAC R.</h3>
         <p>ESPECIALISTA EN DATA</p>
       </nuxt-link>
-      <!-- <nuxt-link to="#" class="item">
-        <figure>
-          <img src="https://i.imgur.com/zRnud0L.png" alt="Gioconda" />
-        </figure>
-        <h3>GIOCONDA L.</h3>
-        <p>ATENCIÓN A CLIENTES</p>
-      </nuxt-link> -->
     </div>
   </section>
 </template>
@@ -88,21 +83,34 @@
 .team img {
   width: 35rem;
 }
-.item {
+.last-items img {
+  width: 35rem;
+}
+.item,
+.last-item {
   margin: 4rem;
   text-decoration: none;
   color: var(--text-grid);
 }
-.item h3 {
+h3 {
   font-family: sifonn;
   font-size: 3rem;
   margin: 2.5rem 0 1.8rem 0;
   text-transform: uppercase;
 }
-.item p {
+p {
   font-family: c-gothic;
   font-size: 2.5rem;
   text-transform: uppercase;
+}
+.last-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.last-item {
+  margin: 5rem 12rem;
 }
 
 /* -------------------------------------------Responsive design */
@@ -113,11 +121,14 @@
   .team img {
     width: 32rem;
   }
-  .item h3 {
+  .last-items img {
+    width: 32rem;
+  }
+  h3 {
     font-size: 2.8rem;
     margin: 2rem 0 1.5rem 0;
   }
-  .item p {
+  p {
     font-size: 2.2rem;
   }
   .team-img img {
@@ -126,16 +137,22 @@
   }
 }
 @media screen and (max-width: 1280px) {
+  .last-item {
+    margin: 5rem 8rem;
+  }
 }
 @media screen and (max-width: 1024px) {
   .team img {
     width: 25rem;
   }
-  .item h3 {
+  .last-items img {
+    width: 25rem;
+  }
+  h3 {
     font-size: 2.5rem;
     margin: 2rem 0 1.5rem 0;
   }
-  .item p {
+  p {
     font-size: 2rem;
   }
   .team-img img {
@@ -154,6 +171,12 @@
   .team img {
     width: 28rem;
   }
+  .last-items img {
+    width: 28rem;
+  }
+  .last-item {
+    margin: 5rem 5rem;
+  }
 }
 @media screen and (max-width: 576px) {
   .team {
@@ -162,9 +185,15 @@
   .team img {
     width: 32rem;
   }
+  .last-items img {
+    width: 32rem;
+  }
   .team-img img {
     margin: 8rem 4rem 4rem;
     width: 35rem;
+  }
+  .last-items {
+    flex-flow: column;
   }
 }
 @media screen and (max-width: 540px) {
@@ -175,6 +204,9 @@
     width: 30rem;
   }
   .team img {
+    width: 30rem;
+  }
+  .last-items img {
     width: 30rem;
   }
 }
@@ -188,10 +220,13 @@
   .team img {
     width: 25rem;
   }
-  .item h3 {
+  .last-items img {
+    width: 25rem;
+  }
+  h3 {
     font-size: 2.2rem;
   }
-  .item p {
+  p {
     font-size: 1.8rem;
   }
 }
@@ -200,6 +235,9 @@
     width: 20rem;
   }
   .team img {
+    width: 20rem;
+  }
+  .last-items img {
     width: 20rem;
   }
 }

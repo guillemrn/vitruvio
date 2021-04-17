@@ -91,7 +91,7 @@ hr {
     width: 70rem;
   }
   .text-container {
-    margin: 0 6rem;
+    margin: 0 2rem;
   }
   h3 {
     font-size: 4.5rem;
@@ -130,13 +130,13 @@ hr {
     width: 50rem;
   }
   .text-container {
-    margin: 0 2rem;
+    margin: 0 1rem;
   }
   h3 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
   p {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .a {
     position: relative;
@@ -149,10 +149,10 @@ hr {
 }
 @media screen and (max-width: 768px) {
   .metodologia img {
-    width: 50rem;
+    width: 55rem;
   }
   .lisa img {
-    width: 40rem;
+    width: 45rem;
   }
   .a {
     position: relative;
@@ -171,10 +171,10 @@ hr {
 }
 @media screen and (max-width: 576px) {
   .metodologia img {
-    width: 40rem;
+    width: 42rem;
   }
   .lisa img {
-    width: 30rem;
+    width: 40rem;
   }
   .a {
     position: relative;
@@ -190,7 +190,7 @@ hr {
 }
 @media screen and (max-width: 540px) {
   h3 {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
   }
   p {
     font-size: 1.6rem;
@@ -198,13 +198,13 @@ hr {
 }
 @media screen and (max-width: 480px) {
   .metodologia img {
-    width: 35rem;
+    width: 37rem;
   }
   .lisa img {
-    width: 25rem;
+    width: 35rem;
   }
   h3 {
-    font-size: 2.6rem;
+    font-size: 2.2rem;
   }
   p {
     font-size: 1.4rem;
@@ -212,13 +212,13 @@ hr {
 }
 @media screen and (max-width: 426px) {
   .metodologia img {
-    width: 30rem;
+    width: 34rem;
   }
   .lisa img {
-    width: 20em;
+    width: 30rem;
   }
   h3 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
   p {
     font-size: 1.3rem;
@@ -226,13 +226,13 @@ hr {
 }
 @media screen and (max-width: 376px) {
   .metodologia img {
-    width: 25rem;
+    width: 27rem;
   }
   .lisa img {
-    width: 18em;
+    width: 28em;
   }
   h3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   p {
     font-size: 1rem;
@@ -240,13 +240,13 @@ hr {
 }
 @media screen and (max-width: 320px) {
   .metodologia img {
-    width: 23rem;
+    width: 25rem;
   }
   .lisa img {
-    width: 16em;
+    width: 26em;
   }
   h3 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   p {
     font-size: 0.8rem;

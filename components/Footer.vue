@@ -17,9 +17,7 @@
         DIRECCIÓN:<br />Parque de las estrellas 2874, Guadalajara, Jalisco,
         México.
       </a>
-      <a href="tel:52333334800" class="links"
-        >TELÉFONO: +52 (33) 333.4800.728</a
-      >
+      <a href="tel:523329700751" class="links">TELÉFONO: +52 (33) 297.007.51</a>
       <a href="mailto:vitruvio.mkt@gmail.com" class="links"
         >CORREO: vitruvio.mkt@gmail.com</a
       >
