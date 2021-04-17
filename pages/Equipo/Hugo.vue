@@ -260,6 +260,14 @@ export default {
   .description p {
     margin: 2rem;
   }
+  .puesto {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 830px) {
+  .description {
+    font-size: 1.5rem;
+  }
 }
 @media screen and (max-width: 768px) {
   .container {
