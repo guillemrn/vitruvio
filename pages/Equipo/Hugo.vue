@@ -133,7 +133,6 @@ export default {
   font-size: 3rem;
   color: #212121;
   box-sizing: content-box;
-  padding: 0 10rem;
   width: 60%;
   margin-bottom: 20rem;
 }
@@ -259,6 +258,14 @@ export default {
 @media screen and (max-width: 1000px) {
   .description p {
     margin: 2rem;
+  }
+  .puesto {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (max-width: 830px) {
+  .description {
+    font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 768px) {
