@@ -23,10 +23,10 @@
         <h1 class="name">LUIS ANTONIO A.</h1>
         <p class="puesto">CINEASTA / DIRECTOR CREATIVO</p>
         <p class="description">
-          Luis, es un egresado de la Universidad de Guadalajara, con
-          licenciatura en Artes Audiovisuales. Ha trabajado como director
-          creativo en agencias de publicidad para marcas como: Menú local,
-          Erdinger, UNE, Balones Molten, Vimifos, entre otras.
+          Luis es un egresado de la Universidad de Guadalajara, con licenciatura
+          en Artes Audiovisuales. Ha trabajado como director creativo en
+          agencias de publicidad para marcas como: Menú local, Erdinger, UNE,
+          Balones Molten, Vimifos, entre otras.
         </p>
         <p class="description">
           Durante su carrera como cineasta ha sido seleccionado en el SHORT FILM

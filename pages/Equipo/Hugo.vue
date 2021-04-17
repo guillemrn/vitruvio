@@ -23,7 +23,7 @@
         <h1 class="name">HUGO V.</h1>
         <p class="puesto">ESTRATEGA DE MARKETING</p>
         <p class="description ab">
-          Hugo, mercadólogo con 20 años de experiencia en Marketing integral,
+          Hugo mercadólogo con 20 años de experiencia en Marketing integral,
           especializado en inteligencia de mercados y creador de un sistema de
           unificación de publicidad y comercialización para marcas y proyectos.
         </p>
@@ -34,7 +34,7 @@
       </div>
       <div class="description">
         <p class="cd">
-          Hugo, mercadólogo con 20 años de experiencia en Marketing integral,
+          Hugo mercadólogo con 20 años de experiencia en Marketing integral,
           especializado en inteligencia de mercados y creador de un sistema de
           unificación de publicidad y comercialización para marcas y proyectos.
         </p>

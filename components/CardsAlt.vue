@@ -6,12 +6,14 @@
           <h2>arranque<br /><span class="subtitle">digital</span></h2>
         </div>
         <ul class="description">
-          <li>Pixel de seguimiento de hasta 4 canales digitales</li>
-          <li>Configuración de google analytics</li>
-          <li>Configuración de eventos de seguimiento en google tag manager</li>
+          <li>Pixel de seguimiento de hasta 4 canales digitales.</li>
+          <li>Configuración de google analytics.</li>
+          <li>
+            Configuración de eventos de seguimiento en google tag manager.
+          </li>
           <li>
             Análisis web y recomendaciones de costumer journey (recorrido del
-            cliente)
+            cliente).
           </li>
           <li>Reporte mensual.</li>
         </ul>
@@ -21,10 +23,10 @@
           <h2>arranque de<br /><span class="subtitle-2">contenido</span></h2>
         </div>
         <ul class="description ab">
-          <li>Producción audiovisual</li>
-          <li>Producción fotográfica</li>
-          <li>Rebranding</li>
-          <li>Herramientas de venta digitales</li>
+          <li>Producción audiovisual.</li>
+          <li>Producción fotográfica.</li>
+          <li>Rebranding.</li>
+          <li>Herramientas de venta digitales.</li>
         </ul>
       </div>
       <div class="card">
@@ -32,12 +34,12 @@
           <h2>otros<br /><span class="subtitle-3">servicios</span></h2>
         </div>
         <ul class="description">
-          <li>Estudio de mercado</li>
-          <li>Optimización web</li>
+          <li>Estudio de mercado.</li>
+          <li>Optimización web.</li>
           <li>
             Implementación de software de atención al cliente según necesidades.
           </li>
-          <li>CRM</li>
+          <li>CRM.</li>
         </ul>
       </div>
     </div>

@@ -13,20 +13,25 @@
           <h2 class="card-title">básico</h2>
           <div class="polygon-2"></div>
         </div>
-        <ul class="cardlist-1">
-          <li>Estrategia digital.</li>
+        <ul class="cardlist-2">
+          <li>Estrategia Digital.</li>
           <li>Creación de campañas y conceptos de comunicación.</li>
           <li>
             Marketing operacional: creación de campañas, segmentación en canales
-            A/B Testing, tracking 360 y campañas de remarketing.
+            A/B testing, traking 360 y campañas de remarketing.
           </li>
           <li>
-            Contenido digital (2) formato: Diseño, video, copy Manejo de hasta 2
-            canales digitales según la estrategia y el segmento de la marca.
+            Contenido digital en formatos: diseño, video y copy. (Hasta 2
+            publicaciones semanales).
           </li>
-          <li>Community management.</li>
+          <li>
+            Manejo de hasta 2 canales digitales según la estrategia y el
+            segmento.
+          </li>
+          <li>Gestión comunitaria.</li>
+          <li>Calendario mensual de contenido.</li>
           <li>Ejecutiva o ejecutivo de cuenta.</li>
-          <li>Reporte mensual.</li>
+          <li>Un Reporte mensual.</li>
         </ul>
         <div class="card-price-container">
           <h3 class="card-price">€ 3,200</h3>
@@ -39,23 +44,23 @@
           <div class="polygon-4"></div>
         </div>
         <ul class="cardlist-2">
-          <li>Estrategia digital.</li>
+          <li>Estrategia Digital.</li>
           <li>Creación de campañas y conceptos de comunicación.</li>
           <li>
             Marketing operacional: creación de campañas, segmentación en canales
-            A/B Testing, tracking 360 y campañas de remarketing en hasta 3
-            canales digitales.
+            A/B testing, traking 360 y campañas de remarketing.
+          </li>
+          <li>
+            Contenido digital en formatos: diseño, video y copy. (Hasta 3
+            publicaciones semanales).
           </li>
           <li>
             Manejo de hasta 3 canales digitales según la estrategia y el
-            segmento de la marca.
+            segmento.
           </li>
-          <li>
-            Contenido digital (3) formato: Diseño, video, copy Calendario
-            digital.
-          </li>
+          <li>Gestión comunitaria.</li>
+          <li>Calendario mensual de contenido.</li>
           <li>Ejecutiva o ejecutivo de cuenta.</li>
-          <li>Community management.</li>
           <li>Dos reportes mensuales.</li>
         </ul>
         <div class="card-price-container">
@@ -69,25 +74,27 @@
           <div class="polygon-6"></div>
         </div>
         <ul class="cardlist-3">
-          <li>Análisis de data en tiempo real de hasta 4 canales digitales.</li>
-          <li>Optimización de campañas con IA</li>
+          <li>
+            Análisis de datos en tiempo real de hasta 4 canales digitales.
+          </li>
+          <li>Optimización de campañas con IA.</li>
           <li>Estrategia digital.</li>
           <li>Creación de campañas y conceptos de comunicación.</li>
           <li>
             Marketing operacional: creación de campañas, segmentación en canales
-            A/B Testing, tracking 360 y campañas de remarketing.
+            A/B testing, traking 360 y campañas de remarketing.
           </li>
           <li>
-            Contenido digital (4) formato: Diseño, ilustración, motion graphics,
-            video, copy
+            Contenido digital en formatos: diseño, ilustración, motion graphics,
+            video y copy. (Hasta 4 publicaciones semanales).
           </li>
-          <li>Calendario digital.</li>
           <li>
             Manejo de hasta 4 canales digitales según la estrategia y el
-            segmento de la marca.
+            segmento.
           </li>
           <li>Instalación de pixel de seguimiento.</li>
-          <li>Community management.</li>
+          <li>Gestión comunitaria.</li>
+          <li>Calendario mensual de contenido.</li>
           <li>Ejecutiva o ejecutivo de cuenta.</li>
           <li>Dos reportes mensuales.</li>
         </ul>

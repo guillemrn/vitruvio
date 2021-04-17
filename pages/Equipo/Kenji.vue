@@ -23,7 +23,7 @@
         <h1 class="name">KENJI K.</h1>
         <p class="puesto">COMPOSITOR / MULTI INSTRUMENTISTA</p>
         <p class="ab">
-          Kenji, ha compuesto la música de los largometrajes Somos Mari Pepa
+          Kenji ha compuesto la música de los largometrajes Somos Mari Pepa
           (2013), Los Años Azules (2016), Ocho de cada diez (2018), Cigüeñas
           (2018) y Los Lobos (2019). Así como de los documentales El último
           bolero, Derecho de Playa y La Hora de la Siesta.
@@ -37,7 +37,7 @@
       </div>
       <div class="description">
         <p class="cd">
-          Kenji, ha compuesto la música de los largometrajes Somos Mari Pepa
+          Kenji ha compuesto la música de los largometrajes Somos Mari Pepa
           (2013), Los Años Azules (2016), Ocho de cada diez (2018), Cigüeñas
           (2018) y Los Lobos (2019). Así como de los documentales El último
           bolero, Derecho de Playa y La Hora de la Siesta.
@@ -113,6 +113,9 @@ export default {
   color: #212121;
   text-transform: uppercase;
   margin-top: 3.5rem;
+}
+.ab {
+  display: none;
 }
 .description {
   font-family: c-gothic;

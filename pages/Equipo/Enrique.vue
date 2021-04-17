@@ -36,7 +36,7 @@
         </p>
       </div>
       <div class="video">
-        <iframe
+        <!-- <iframe
           width="660"
           height="415"
           src="https://www.youtube.com/embed/eKOgBG07tv4"
@@ -45,7 +45,7 @@
           allowfullscreen
           rel="0"
           showinfo="0"
-        ></iframe>
+        ></iframe> -->
         <div class="music">
           <VueSlickCarousel
             v-bind="settings"

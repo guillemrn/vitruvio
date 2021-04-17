@@ -17,7 +17,7 @@
         de las cosas.
       </p>
       <p>
-        Analizar y definir la <strong>ANATOMÍA DE TU MARCA,</strong> nos permite
+        Analizar y definir la <strong>ANATOMÍA DE TU MARCA</strong> nos permite
         ser realmente efectivos al momento de querer mostrarla.
         <strong>Observarla, medirla y diseccionarla,</strong> hace posible
         generar poderosos conceptos de comunicación, que atraigan la atención e
