@@ -91,17 +91,38 @@
   margin: 4rem;
   text-decoration: none;
   color: var(--text-grid);
+  transition: 300ms;
 }
+/* .item:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.last-item:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+} */
 h3 {
   font-family: sifonn;
   font-size: 3rem;
   margin: 2.5rem 0 1.8rem 0;
   text-transform: uppercase;
+  transition: 300ms;
 }
 p {
   font-family: c-gothic;
   font-size: 2.5rem;
   text-transform: uppercase;
+  transition: 300ms;
+}
+.item:hover h3 {
+  color: var(--metodologia);
+}
+.item:hover p {
+  color: var(--metodologia);
+}
+.last-item:hover h3 {
+  color: var(--metodologia);
+}
+.last-item:hover p {
+  color: var(--metodologia);
 }
 .last-items {
   display: flex;

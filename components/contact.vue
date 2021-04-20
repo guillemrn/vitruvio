@@ -8,7 +8,6 @@
         netlify-honeypot="bot-field"
         method="post"
         data-netlify="true"
-        data-netlify-recaptcha="true"
       >
         <div>
           <input type="hidden" name="form-name" value="contact" />
@@ -68,7 +67,6 @@
             >¿CUÁNDO PODEMOS HABLAR CONTIGO?</label
           ><br />
           <input class="form-button" type="submit" value="ENVIAR" />
-          <div data-netlify-recaptcha="true"></div>
         </div>
       </form>
     </div>
