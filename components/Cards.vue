@@ -34,7 +34,7 @@
           <li>Un Reporte mensual.</li>
         </ul>
         <div class="card-price-container">
-          <h3 class="card-price">€ 3,200</h3>
+          <!-- <h3 class="card-price">€ 3,200</h3> -->
         </div>
       </div>
       <div class="card">
@@ -64,7 +64,7 @@
           <li>Dos reportes mensuales.</li>
         </ul>
         <div class="card-price-container">
-          <h3 class="card-price">€ 4,200</h3>
+          <!-- <h3 class="card-price">€ 4,200</h3> -->
         </div>
       </div>
       <div class="card">
@@ -99,7 +99,7 @@
           <li>Dos reportes mensuales.</li>
         </ul>
         <div class="card-price-container">
-          <h3 class="card-price">€ 5,200</h3>
+          <!-- <h3 class="card-price">€ 5,200</h3> -->
         </div>
       </div>
     </section>
